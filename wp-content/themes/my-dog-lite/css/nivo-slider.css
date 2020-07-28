@@ -1,0 +1,51 @@
+/*
+ * jQuery Nivo Slider v3.2
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+ 
+/* The Nivo Slider styles */
+.slider-wrapper{ position:relative;}
+.slider-main{position:relative;}
+.nivoSlider {position:relative;	width:100%;	height:auto;overflow: hidden;}
+.nivoSlider img {position:absolute;top:0px;	left:0px;max-width: none;}
+.nivo-main-image {display: block !important;position: relative !important; width: 100% !important;}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {position:absolute;top:0px;left:0px;width:100%;height:100%;border:0;padding:0;	margin:0;z-index:6;	display:none;background:white; 
+filter:alpha(opacity=0); opacity:0;}
+/* The slices and boxes in the Slider */
+.nivo-slice {display:block;	position:absolute;	z-index:5;	height:100%;top:0;}
+.nivo-box {	display:block;	position:absolute;z-index:5;overflow:hidden;}
+.nivo-box img { display:block; }
+
+/* Caption styles */
+.nivo-html-caption { display:none;}
+
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav{position: absolute; right: 0; top: 50%; z-index: 999; -webkit-transform: translateY(-50%); transform: translateY(-50%);}
+.nivo-directionNav a{background-color: #000; color: #ffffff; display: block; font-size: 28px; line-height:55px; text-align:center; cursor:pointer; height:55px;width:55px;}
+.nivo-caption{position:absolute;left:0; right:0; box-sizing:border-box;z-index:99; max-width: 1170px; display:none;width:auto;margin:0 auto; top:50%; -webkit-transform:translateY(-50%); transform:translateY(-50%);}
+.nivo-directionNav a:hover{color: #ffffff;}
+
+
+a.nivo-prevNav {left:0;background-position:22px 2px !important; padding:10px 15px 25px 15px;}
+a.nivo-nextNav {right:0;background-position:-22px 2px !important; padding:5px 5px 25px 15px;}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {text-align:center; padding:0; position: absolute; text-align: center; width: auto; bottom:4%; left:0; right:0; z-index:9;}
+.nivo-controlNav a {cursor:pointer;}
+.nivo-controlNav a {border: 0 none; display:inline-block; background-color:#000; height: 12px; margin:4px; text-indent: -9999px; width:12px; border-radius:100%; -moz-border-radius:100%; -webkit-border-radius:100%;}
+.nivo-controlNav a.active {font-weight:bold; background-position: 0 -21px; background-color:#9cc914;}
+.nivo-directionNav a{border: 0 none; display: block; height: 54px; text-indent: -9999px; transition: all 200ms ease-in-out 0s; width: 54px; background:url(../images/slide-nav.png) no-repeat left top #000000;}
+.nivo-directionNav a:hover{background-color:#9cc914;}
+/* Caption styles */
+.nivo-caption{position:absolute; left:0; text-align:left; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; color:#fff; z-index:8; overflow: hidden; width:100%;}
+.slide_info h2{font-size:69px; color:#fff; margin:0 0 30px; font-family: 'Assistant'; font-weight:bold; text-transform:uppercase;}
+.slide_info h2 span{color:#fff;}
+.slide_info p{color:#ffffff; margin-bottom:35px; font-family: 'Assistant'; font-size: 17px; line-height:23px;}
+.slide_info h2 a{color:#9cc914; }
+.slide_info .slide_more{font-family: 'Roboto', sans-serif; font-size:15px; font-weight:600; background-color:#9cc914; padding:14px 32px;color:#fff; display:inline-block; margin-top:15px; text-transform:uppercase;}
+.slide_info .slide_more:hover{background-color:#ECB00E !important; color:#fff; }

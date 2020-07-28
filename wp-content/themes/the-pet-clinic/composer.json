@@ -1,0 +1,5 @@
+{
+    "require": {
+        "wptrt/customize-section-button": "^1.0"
+    }
+}

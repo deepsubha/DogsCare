@@ -1,0 +1,4376 @@
+# Copyright (C) 2019 N Squared
+# This file is distributed under the GPLv2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simply Schedule Appointments 3.0.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/simply-schedule-appointments\n"
+"POT-Creation-Date: 2019-07-06 20:39:59+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: booking-app/page-appointment-edit.php:6
+msgid "Edit Appointment"
+msgstr ""
+
+#: includes/class-appointment-model.php:385
+msgid "Sorry, that time was just booked and is no longer available"
+msgstr ""
+
+#: includes/class-async-action-model.php:64
+msgid "Once every minute"
+msgstr ""
+
+#: includes/class-capabilities.php:60
+msgid "SSA: Manage Settings"
+msgstr ""
+
+#: includes/class-capabilities.php:61
+msgid "SSA: Book Appointments"
+msgstr ""
+
+#: includes/class-capabilities.php:62
+msgid "SSA: Cancel Appointments"
+msgstr ""
+
+#: includes/class-capabilities.php:63
+msgid "SSA: Cancel Others' Appointment"
+msgstr ""
+
+#: includes/class-google-calendar.php:312
+#: languages/admin-app-translations.php:10
+msgid "Canceled"
+msgstr ""
+
+#: includes/class-google-calendar.php:767
+msgid "Service"
+msgstr ""
+
+#: includes/class-google-calendar.php:772
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:615
+#: languages/admin-app-translations.php:318
+#: languages/admin-app-translations.php:469
+#: languages/admin-app-translations.php:513
+#: languages/admin-app-translations.php:601
+#: languages/booking-app-translations.php:100
+msgid "Name"
+msgstr ""
+
+#: includes/class-google-calendar.php:773
+#: languages/admin-app-translations.php:320
+#: languages/admin-app-translations.php:602
+#: languages/booking-app-translations.php:101
+msgid "Email"
+msgstr ""
+
+#: includes/class-google-calendar.php:774
+#: languages/admin-app-translations.php:603
+#: languages/booking-app-translations.php:102
+msgid "Phone"
+msgstr ""
+
+#: includes/class-google-calendar.php:786
+msgid "Extras"
+msgstr ""
+
+#: includes/class-google-calendar.php:898
+msgid "There is not any Calendar selected"
+msgstr ""
+
+#: includes/class-ics-exporter.php:199
+msgid "Appointments from %s"
+msgstr ""
+
+#: includes/class-license-updater.php:199
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: includes/class-license-updater.php:207
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: includes/class-license-updater.php:397
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/class-license-updater.php:397
+msgid "Error"
+msgstr ""
+
+#: includes/class-license.php:127
+msgid "License removed"
+msgstr ""
+
+#: includes/class-license.php:149 includes/class-license.php:178
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: includes/class-license.php:157
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: includes/class-license.php:162
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: includes/class-license.php:165
+msgid "Invalid license."
+msgstr ""
+
+#: includes/class-license.php:169
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: includes/class-license.php:172
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: includes/class-license.php:175
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: includes/class-mailchimp.php:91
+msgid ""
+"You need to enter your MailChimp API key in the Simply Schedule "
+"Appointments settings"
+msgstr ""
+
+#: includes/class-mailchimp.php:107 includes/class-mailchimp.php:113
+msgid "Invalid API response from MailChimp"
+msgstr ""
+
+#: includes/class-mailchimp.php:177
+msgid "No MailChimp lists found"
+msgstr ""
+
+#: includes/class-mailchimp.php:186
+msgid "MailChimp list not found"
+msgstr ""
+
+#: includes/class-mailchimp.php:206
+msgid "The user is marked as unsubscribed in MailChimp"
+msgstr ""
+
+#: includes/class-offline-payments-settings.php:63
+msgid "Pay in person"
+msgstr ""
+
+#: includes/class-offline-payments-settings.php:69
+msgid "You are agreeing to pay this amount in person."
+msgstr ""
+
+#: includes/class-payments.php:276
+msgid "An error occurred processing your payment"
+msgstr ""
+
+#: includes/class-payments.php:286
+msgid "The credit card was declined"
+msgstr ""
+
+#: includes/class-paypal-settings.php:69
+msgid ""
+"Pay via PayPal; you can pay with your credit card if you don't have a "
+"PayPal account."
+msgstr ""
+
+#: includes/class-paypal.php:495
+msgid "Payment failed due to invalid PayPal business email."
+msgstr ""
+
+#: includes/class-paypal.php:505
+msgid "Payment failed due to invalid currency in PayPal IPN."
+msgstr ""
+
+#: includes/class-paypal.php:548
+msgid "Payment failed due to invalid amount in PayPal IPN."
+msgstr ""
+
+#: includes/class-paypal.php:557
+msgid "Payment failed due to invalid purchase key in PayPal IPN."
+msgstr ""
+
+#: includes/class-paypal.php:565
+msgid "PayPal Transaction ID: %s"
+msgstr ""
+
+#: includes/class-paypal.php:579
+msgid "Payment made via eCheck and will clear automatically in 5-8 days"
+msgstr ""
+
+#: includes/class-paypal.php:587
+msgid ""
+"Payment requires a confirmed customer address and must be accepted manually "
+"through PayPal"
+msgstr ""
+
+#: includes/class-paypal.php:593
+msgid ""
+"Payment must be accepted manually through PayPal due to international "
+"account regulations"
+msgstr ""
+
+#: includes/class-paypal.php:599
+msgid ""
+"Payment received in non-shop currency and must be accepted manually through "
+"PayPal"
+msgstr ""
+
+#: includes/class-paypal.php:606
+msgid ""
+"Payment is being reviewed by PayPal staff as high-risk or in possible "
+"violation of government regulations"
+msgstr ""
+
+#: includes/class-paypal.php:612
+msgid "Payment was sent to non-confirmed or non-registered email address."
+msgstr ""
+
+#: includes/class-paypal.php:618
+msgid "PayPal account must be upgraded before this payment can be accepted"
+msgstr ""
+
+#: includes/class-paypal.php:624
+msgid ""
+"PayPal account is not verified. Verify account in order to accept this "
+"payment"
+msgstr ""
+
+#: includes/class-paypal.php:630
+msgid ""
+"Payment is pending for unknown reasons. Contact PayPal support for "
+"assistance"
+msgstr ""
+
+#: includes/class-shortcodes.php:302 includes/class-wp-admin.php:242
+msgid "Simply Schedule Appointments requires JavaScript"
+msgstr ""
+
+#: includes/class-shortcodes.php:303
+msgid ""
+"To book an appointment, please make sure you enable JavaScript in your "
+"browser."
+msgstr ""
+
+#: includes/class-shortcodes.php:311 includes/class-wp-admin.php:252
+msgid "Unsupported Browser"
+msgstr ""
+
+#: includes/class-shortcodes.php:312
+msgid ""
+"To book an appointment, please update your browser to something more "
+"modern. We recommend Firefox or Chrome."
+msgstr ""
+
+#: includes/class-shortcodes.php:335
+msgid "Book a time"
+msgstr ""
+
+#: includes/class-sms.php:227
+msgid "TEST: Simply Schedule Appointments is running on your site!"
+msgstr ""
+
+#: includes/class-stripe-settings.php:64
+msgid "Credit card"
+msgstr ""
+
+#: includes/class-stripe-settings.php:70
+msgid "Pay with Credit Card"
+msgstr ""
+
+#: includes/class-support-status-api.php:86
+msgid "No response"
+msgstr ""
+
+#: includes/class-support-status-api.php:94
+msgid ""
+"Your support ticket failed to be sent, please send details to "
+"support@simplyscheduleappointments.com"
+msgstr ""
+
+#: includes/class-templates.php:106
+msgid "[customer info will go here...]"
+msgstr ""
+
+#: includes/class-utils.php:137
+msgid "No $local_timezone defined"
+msgstr ""
+
+#: includes/class-utils.php:156
+msgid "Staff members are not supported yet"
+msgstr ""
+
+#: includes/class-utils.php:158
+msgid "Locations are not supported yet"
+msgstr ""
+
+#: includes/class-wp-admin.php:158 includes/class-wp-admin.php:159
+#: languages/admin-app-translations.php:152
+msgid "Appointments"
+msgstr ""
+
+#: includes/class-wp-admin.php:171 includes/class-wp-admin.php:172
+#: languages/admin-app-translations.php:154
+msgid "Appointment Types"
+msgstr ""
+
+#: includes/class-wp-admin.php:180 includes/class-wp-admin.php:181
+#: languages/admin-app-translations.php:156
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wp-admin.php:189 includes/class-wp-admin.php:190
+#: languages/admin-app-translations.php:737
+msgid "Support"
+msgstr ""
+
+#: includes/class-wp-admin.php:243
+msgid "Please make sure you enable JavaScript in your browser."
+msgstr ""
+
+#: includes/class-wp-admin.php:253
+msgid ""
+"Please update your browser to something more modern. We recommend Firefox "
+"or Chrome."
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:115
+msgid ""
+"You don't have any of the default themes installed. A default theme helps "
+"you determine if your current theme is causing conflicts."
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:120
+msgid "Install a default theme"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:223
+msgid "Disable while troubleshooting"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:231
+msgid "Enable while troubleshooting"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:506
+#. translators: %s: The plugin slug that was enabled.
+msgid ""
+"When enabling the plugin, %s, a site failure occurred. Because of this the "
+"change was automatically reverted."
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:532
+#. translators: %s: The plugin slug that was disabled.
+msgid ""
+"When disabling the plugin, %s, a site failure occurred. Because of this the "
+"change was automatically reverted."
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:555
+#. translators: %s: The theme slug that was switched to.
+msgid ""
+"When switching the active theme to %s, a site failure occurred. Because of "
+"this we reverted the theme to the one you used previously."
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:606
+msgid "Troubleshooting Mode"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:613
+msgid "Manage active plugins"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:620
+msgid "Plugins"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:644
+#. Translators: %s: Plugin slug.
+msgid "Disable %s"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:657
+#. Translators: %s: Plugin slug.
+msgid "Enable %s"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:682
+msgid "Themes"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:697
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:1035
+#. translators: Prefix for the active theme in a listing.
+msgid "Active:"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:715
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:1074
+#: includes/lib/td-health-check/includes/class-health-check-troubleshoot.php:299
+msgid "Disable Troubleshooting Mode"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:859
+msgid "Health Check &mdash; Troubleshooting Mode"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:863
+msgid ""
+"Your site is currently in Troubleshooting Mode. This has no effect on your "
+"site visitors, they will continue to view your site as usual, but for you "
+"it will look as if you had just installed WordPress for the first time."
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:867
+msgid ""
+"Here you can enable individual plugins or themes, helping you to find out "
+"what might be causing strange behaviors on your site. Do note that any "
+"changes you make to settings will be kept when you disable Troubleshooting "
+"Mode."
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:873
+msgid "Notices"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:879
+msgid "There are no notices to show."
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:887
+msgid ""
+"Plugin actions, such as activating and deactivating, are not available "
+"while in Troubleshooting Mode."
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:909
+msgid "Dismiss notices"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:920
+msgid "Available Plugins"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:950
+#. translators: %s: Plugin name.
+msgid "Disable the plugin, %s, while troubleshooting."
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:954
+msgid "Disable"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:965
+#. translators: %s: Plugin name.
+msgid "Enable the plugin, %s, while troubleshooting."
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:969
+#: languages/admin-app-translations.php:149
+msgid "Enable"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:987
+msgid "Show all plugins"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:991
+msgid "Show fewer plugins"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:1002
+msgid "Available Themes"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:1025
+#. translators: %s: Theme name.
+msgid "Switch the active theme to %s"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:1029
+msgid "Switch to this theme"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:1056
+msgid "Show all themes"
+msgstr ""
+
+#: includes/lib/td-health-check/assets/mu-plugin/health-check-troubleshooting-mode.php:1060
+msgid "Show fewer themes"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:81
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:103
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:125
+#. translators: %s: Name of the constant used.
+msgid "The %s constant is defined and enabled."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:166
+#. translators: %s: Name of the filter used.
+msgid "A plugin has prevented updates by disabling %s."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:188
+#. translators: %s: Name of the filter used.
+msgid "The %s filter is enabled."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:213
+msgid ""
+"A previous automatic background update ended with a critical failure, so "
+"updates are now disabled."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:214
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:229
+msgid "You would have received an email because of this."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:215
+msgid ""
+"When you've been able to update using the \"Update Now\" button on "
+"Dashboard > Updates, we'll clear this error for future update attempts."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:218
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:235
+#. translators: %s: Code of error shown.
+msgid "The error code was %s."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:227
+msgid "A previous automatic background update could not occur."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:232
+msgid "We'll try again with the next release."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:294
+#. translators: %1$s: Folder name. %2$s: Version control directory. %3$s:
+#. Filter name.
+msgid ""
+"The folder %1$s was detected as being under version control (%2$s), but the "
+"%3$s filter is allowing updates."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:307
+#. translators: %1$s: Folder name. %2$s: Version control directory.
+msgid "The folder %1$s was detected as being under version control (%2$s)."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:316
+msgid "No version control systems were detected."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:347
+msgid ""
+"Your installation of WordPress prompts for FTP credentials to perform "
+"updates."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:348
+msgid ""
+"(Your site is performing updates over FTP due to file ownership. Talk to "
+"your hosting company.)"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:357
+msgid ""
+"Your installation of WordPress doesn't require FTP credentials to perform "
+"updates."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:417
+#. translators: %s: WordPress version
+msgid "Couldn't retrieve a list of the checksums for WordPress %s."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:420
+msgid "This could mean that connections are failing to WordPress.org."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:446
+msgid "Some files are not writable by WordPress:"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:451
+msgid "All of your WordPress files are writable."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:479
+#. translators: %s: Name of the constant used.
+msgid "WordPress development updates are blocked by the %s constant."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:490
+#. translators: %s: Name of the filter used.
+msgid "WordPress development updates are blocked by the %s filter."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:513
+#. translators: %s: Name of the constant used.
+msgid "WordPress security and maintenance releases are blocked by %s."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-auto-updates.php:524
+#. translators: %s: Name of the filter used.
+msgid "WordPress security and maintenance releases are blocked by the %s filter."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:55
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:583
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:608
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:673
+#. translators: %s: Latest WordPress version number.
+#. translators: %s: Latest plugin version number.
+#. translators: %s: Latest theme version number.
+#. translators: %s: Latest theme version number.
+msgid "( Latest version: %s )"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:63
+msgid "WordPress"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:66
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:620
+msgid "Version"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:70
+msgid "Language"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:74
+#: languages/admin-app-translations.php:754
+msgid "Home URL"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:79
+#: languages/admin-app-translations.php:753
+msgid "Site URL"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:84
+msgid "Permalink structure"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:88
+msgid "Is this site using HTTPS?"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:89
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:93
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:101
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:439
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:444
+msgid "Yes"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:89
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:93
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:101
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:439
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:444
+msgid "No"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:92
+msgid "Can anyone register on this site?"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:96
+msgid "Default comment status"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:100
+msgid "Is this a multisite?"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:106
+msgid "Installation size"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:110
+msgid "Drop-ins"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:111
+msgid ""
+"Drop-ins are single files that replace or enhance WordPress features in "
+"ways that are not possible for traditional plugins"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:115
+msgid "Active Theme"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:119
+msgid "Other themes"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:124
+msgid "Must Use Plugins"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:129
+msgid "Active Plugins"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:134
+msgid "Inactive Plugins"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:139
+msgid "Media handling"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:143
+msgid "Server"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:144
+msgid ""
+"The options shown below relate to your server setup. If changes are "
+"required, you may need your web host's assistance."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:148
+msgid "Database"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:152
+msgid "WordPress Constants"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:153
+msgid ""
+"These values represent values set in your websites code which affect "
+"WordPress in various ways that may be of importance when seeking help with "
+"your site."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:157
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:161
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:165
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:169
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:173
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:177
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:181
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:185
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:189
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:193
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:197
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:201
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:205
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:631
+msgid "Undefined"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:169
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:177
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:181
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:185
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:189
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:193
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:197
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:201
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:205
+msgid "Enabled"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:169
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:177
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:181
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:185
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:189
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:193
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:197
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:201
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:205
+msgid "Disabled"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:210
+msgid "Filesystem Permissions"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:211
+msgid ""
+"The status of various locations WordPress needs to write files in various "
+"scenarios."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:214
+msgid "The main WordPress directory"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:215
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:219
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:223
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:227
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:231
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:694
+msgid "Writable"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:215
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:219
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:223
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:227
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:231
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:694
+msgid "Not writable"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:218
+msgid "The wp-content directory"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:222
+msgid "The uploads directory"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:226
+msgid "The plugins directory"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:230
+msgid "The themes directory"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:251
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:266
+msgid "User Count"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:255
+msgid "Site Count"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:259
+msgid "Network Count"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:277
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:284
+#: includes/lib/td-health-check/pages/site-status.php:74
+msgid "Communication with WordPress.org"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:279
+msgid "WordPress.org is reachable"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:287
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:643
+#. translators: %1$s: The IP address WordPress.org resolves to. %2$s: The error
+#. returned by the lookup.
+msgid "Unable to reach WordPress.org at %1$s: %2$s"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:296
+msgid "Create loopback requests"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:312
+msgid "Active editor"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:325
+msgid "Imagick Module Version"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:329
+msgid "ImageMagick Version"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:345
+msgid "Imagick Resource Limits"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:357
+msgid "GD Version"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:358
+msgid "GD not available"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:364
+msgid "Not available"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:366
+msgid "Unable to determine if Ghostscript is installed"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:369
+msgid "Ghostscript Version"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:375
+msgid "Server architecture"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:376
+msgid "Unable to determine server architecture"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:379
+#: includes/lib/td-health-check/pages/site-status.php:44
+msgid "PHP Version"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:380
+msgid "Unable to determine PHP version"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:383
+msgid "(Supports 64bit values)"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:388
+msgid "PHP SAPI"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:389
+msgid "Unable to determine PHP SAPI"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:394
+msgid "Server settings"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:395
+msgid ""
+"Unable to determine some settings as the ini_get() function has been "
+"disabled"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:399
+msgid "PHP max input variables"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:403
+msgid "PHP time limit"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:407
+msgid "PHP memory limit"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:411
+msgid "Max input time"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:415
+msgid "Upload max filesize"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:419
+msgid "PHP post max size"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:427
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:432
+msgid "cURL Version"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:433
+msgid "Your server does not support cURL"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:438
+msgid "SUHOSIN installed"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:443
+msgid "Is the Imagick library available"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:456
+msgid "htaccess rules"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:457
+msgid "Custom rules have been added to your htaccess file"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:457
+msgid "Your htaccess file only contains core WordPress features"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:497
+msgid "Extension"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:501
+msgid "Server version"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:505
+msgid "Client version"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:509
+msgid "Database user"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:514
+msgid "Database host"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:519
+msgid "Database name"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:524
+msgid "Database prefix"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:535
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:566
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:656
+msgid "No version or author information available"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:539
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:570
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:660
+#. translators: %1$s: Plugin version number. %2$s: Plugin author name.
+#. translators: %1$s: Theme version number. %2$s: Theme author name.
+msgid "Version %1$s by %2$s"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:543
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:574
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:664
+#. translators: %s: Plugin author name.
+#. translators: %s: Theme author name.
+msgid "By %s"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:547
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:578
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:668
+#. translators: %s: Plugin version number.
+#. translators: %s: Theme version number.
+msgid "Version %s"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:625
+#: includes/lib/td-util/extended-cpts/src/class-extended-cpt-admin.php:673
+msgid "Author"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:630
+msgid "Author website"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:634
+msgid "Parent theme"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:635
+msgid "Not a child theme"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:638
+msgid "Supported theme features"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:681
+#. translators: %1$s: Theme name. %2$s: Theme slug.
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:693
+msgid "The Must Use Plugins directory"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:788
+msgid "Uploads Directory"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:792
+msgid "Themes Directory"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:796
+msgid "Plugins Directory"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:800
+msgid "Database size"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:804
+msgid "Whole WordPress Directory"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:808
+msgid "Total installation size"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-debug-data.php:812
+msgid ""
+"- Some errors, likely caused by invalid permissions, were encountered when "
+"determining the size of your installation. This means the values "
+"represented may be inaccurate."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-files-integrity.php:81
+msgid "Content changed"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-files-integrity.php:81
+msgid "(View Diff)"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-files-integrity.php:84
+msgid "File not found"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-files-integrity.php:108
+msgid "All files passed the check. Everything seems to be ok!"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-files-integrity.php:112
+msgid "It appears as if some files may have been modified."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-files-integrity.php:113
+msgid ""
+"One possible reason for this may be that your installation contains "
+"translated versions. An easy way to clear this is to reinstall WordPress. "
+"Don't worry. This will only affect WordPress' own files, not your themes, "
+"plugins or uploaded media."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-files-integrity.php:115
+#: includes/lib/td-health-check/includes/class-health-check-files-integrity.php:121
+#: languages/admin-app-translations.php:700
+msgid "Status"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-files-integrity.php:117
+#: includes/lib/td-health-check/includes/class-health-check-files-integrity.php:123
+msgid "File"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-files-integrity.php:119
+#: includes/lib/td-health-check/includes/class-health-check-files-integrity.php:125
+msgid "Reason"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-files-integrity.php:174
+msgid "Original"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-files-integrity.php:176
+msgid "Modified"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-files-integrity.php:201
+msgid ""
+"The File Integrity checks all the core files with the "
+"<code>checksums</code> provided by the WordPress API to see if they are "
+"intact. If there are changes you will be able to make a Diff between the "
+"files hosted on WordPress.org and your installation to see what has been "
+"changed."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-files-integrity.php:205
+msgid "Check the Files Integrity"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-files-integrity.php:218
+msgid "File Integrity"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-loopback.php:71
+msgid ""
+"The loopback request to your site failed, this may prevent WP_Cron from "
+"working, along with theme and plugin editors."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-loopback.php:74
+#. translators: %1$d: The HTTP response code. %2$s: The error message returned.
+msgid "Error encountered: (%1$d) %2$s"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-loopback.php:87
+#. translators: %d: The HTTP response code returned.
+msgid ""
+"The loopback request returned an unexpected status code, %d, this may "
+"affect tools such as WP_Cron, or theme and plugin editors."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-loopback.php:95
+msgid "The loopback request to your site completed successfully."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-loopback.php:157
+msgid "Result from testing without any plugins active and a default theme"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-loopback.php:174
+#: includes/lib/td-health-check/includes/class-health-check-loopback.php:185
+msgid "Waiting..."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-loopback.php:182
+#. translators: %s: The active theme name.
+msgid "Active theme: %s"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-mail-check.php:35
+#. translators: %s: website url.
+msgid "Health Check – Test Message from %s"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-mail-check.php:39
+#. translators: %1$s: website name. %2$s: website url. %3$s: The date the
+#. message was sent. %4$s: The time the message was sent. %5$s: Additional
+#. custom message from the administrator.
+msgid ""
+"Hi! This test message was sent by the Health Check plugin from %1$s (%2$s) "
+"on %3$s at %4$s. Since you’re reading this, it obviously works. Additional "
+"message from admin: %5$s"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-mail-check.php:51
+msgid ""
+"We have just sent an e-mail using <code>wp_mail()</code> and it seems to "
+"work. Please check your inbox and spam folder to see if you received it."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-mail-check.php:55
+msgid "It seems there was a problem sending the e-mail."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-mail-check.php:82
+msgid ""
+"The Mail Check will invoke the <code>wp_mail()</code> function and check if "
+"it succeeds. We will use the E-mail address you have set up, but you can "
+"change it below if you like."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-mail-check.php:92
+msgid "E-mail"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-mail-check.php:98
+msgid "Additional message"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-mail-check.php:104
+msgid "Send test mail"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-mail-check.php:116
+msgid "Mail Check"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:91
+#. translators: %s: Your current version of WordPress.
+msgid "%s - We were unable to check if any new versions are available."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:111
+#. translators: %1$s: Your current version of WordPress. %2$s The latest
+#. version of WordPress available.
+msgid "%1$s ( Latest version: %2$s )"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:125
+#. translators: %1$s: Your current version of WordPress. %2$s The latest
+#. version of WordPress available.
+msgid ""
+"%1$s ( Latest version: %2$s ) - We strongly urge you to update, as minor "
+"updates are often security related."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:139
+#. translators: %1$s: Your current version of WordPress.
+msgid "You are running WordPress %1$s."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:215
+#. translators: %d: The amount of outdated plugins.
+msgid "Your site has %d plugin waiting to be updated."
+msgid_plural "Your site has %d plugins waiting to be updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:229
+#. translators: %d: The amount of plugins.
+msgid "Your site has %d active plugin, and it is up to date."
+msgid_plural "Your site has %d active plugins, and they are all up to date."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:246
+#. translators: %d: The amount of inactive plugins.
+msgid ""
+"Your site has %d inactive plugin, it is recommended to remove any unused "
+"plugins to enhance your site security."
+msgid_plural ""
+"Your site has %d inactive plugins, it is recommended to remove any unused "
+"plugins to enhance your site security."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:316
+#. translators: %d: The amount of outdated themes.
+msgid "Your site has %d theme waiting to be updated."
+msgid_plural "Your site has %d themes waiting to be updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:330
+#. translators: %d: The amount of themes.
+msgid "Your site has %d installed theme, and it is up to date."
+msgid_plural "Your site has %d installed themes, and they are all up to date."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:349
+#. translators: %1$d: The amount of inactive themes. %2$s: The default theme
+#. for WordPress. %3$s: The currently active theme. %4$s: The active themes
+#. parent theme.
+msgid ""
+"Your site has %1$d inactive theme. To enhance your sites security it is "
+"recommended to remove any unused themes. You should keep %2$s, the default "
+"WordPress theme, %3$s, your current theme and %4$s, the parent theme."
+msgid_plural ""
+"Your site has %1$d inactive themes. To enhance your sites security it is "
+"recommended to remove any unused themes. You should keep %2$s, the default "
+"WordPress theme, %3$s, your current theme and %4$s, the parent theme."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:367
+#. translators: %1$d: The amount of inactive themes. %2$s: The default theme
+#. for WordPress. %3$s: The currently active theme.
+msgid ""
+"Your site has %1$d inactive theme, other than %2$s, the default WordPress "
+"theme, and %3$s, your active theme. It is recommended to remove any unused "
+"themes to enhance your sites security."
+msgid_plural ""
+"Your site has %1$d inactive themes, other than %2$s, the default WordPress "
+"theme, and %3$s, your active theme. It is recommended to remove any unused "
+"themes to enhance your sites security."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:385
+msgid ""
+"Your site does not have a default theme, default themes are used by "
+"WordPress automatically if anything is wrong with your normal theme."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:405
+#. translators: %1$s: Current PHP version. %2$s: Recommended PHP version. %3$s:
+#. Minimum PHP version.
+msgid ""
+"Your version of PHP, %1$s, is very outdated and no longer receiving "
+"security updates and is not supported by WordPress. You should contact your "
+"host for an upgrade, WordPress recommends using PHP version %2$s, but will "
+"work with version %3$s or newer."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:420
+#. translators: %1$s: Current PHP version. %2$s: Recommended PHP version.
+msgid ""
+"Your version of PHP, %1$s, is very outdated and no longer receiving "
+"security updates. You should contact your host for an upgrade, WordPress "
+"recommends using PHP version %2$s."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:429
+#. translators: %s: Recommended PHP version
+msgid ""
+"Your version of PHP, %s is current and meets all requirements. For even "
+"better performance, you can upgrade to PHP %s or higher."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:437
+#. translators: %s: Recommended PHP version
+msgid "Your version of PHP, %s is current and meets all requirements"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:462
+msgid ""
+"The PHP install on your server has the JSON extension disabled and is "
+"therefore not compatible with WordPress 3.2 or newer."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:470
+msgid "Your PHP install supports JSON."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:486
+#. translators: %1$s: The database engine in use (MySQL or MariaDB). %2$s:
+#. Database server recommended version number.
+msgid ""
+"For performance and security reasons, we strongly recommend running %1$s "
+"version %2$s or higher."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:496
+#. translators: %1$s: The database engine in use (MySQL or MariaDB). %2$s:
+#. Database server minimum version number.
+msgid "WordPress 3.2+ requires %1$s version %2$s or higher."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:507
+#. translators: %s: The name of the database engine being used.
+msgid ""
+"You are using a <code>wp-content/db.php</code> drop-in which might mean "
+"that a %s database is not being used."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:540
+#. translators: %s: Number of version.
+msgid "WordPress' utf8mb4 support requires MySQL version %s or greater"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:550
+msgid "Your MySQL version supports utf8mb4"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:562
+#. translators: %s: Number of version.
+msgid "WordPress' utf8mb4 support requires MariaDB version %s or greater"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:572
+msgid "Your MariaDB version supports utf8mb4"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:599
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:614
+#. translators: %1$s: Name of the library, %2$s: Number of version.
+msgid ""
+"WordPress' utf8mb4 support requires MySQL client library (%1$s) version "
+"%2$s or newer."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:633
+msgid "WordPress.org is reachable from your server."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:664
+#. translators: %s: URL to Settings > General to change options.
+msgid ""
+"You are accessing this website using HTTPS, but your <a "
+"href=\"%s\">WordPress Address</a> is not set up to use HTTPS by default."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:674
+msgid "You are accessing this website using HTTPS."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:683
+msgid "You are not using HTTPS to access this website."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:697
+msgid "Your WordPress install can communicate securely with other services."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:705
+msgid ""
+"Your WordPress install cannot communicate securely with other services. "
+"Talk to your web host about OpenSSL support for PHP."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:730
+#. translators: %s: The name of the failed cron event.
+msgid ""
+"A scheduled event (%s) has failed to run. Your site still works, but this "
+"may indicate that notifications and synchronization with 3rd party services "
+"may not work as intended."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:740
+msgid "No scheduled events have been missed."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-troubleshoot.php:145
+msgid "We were unable to create the mu-plugins directory."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-troubleshoot.php:153
+msgid "We could not remove the old must-use plugin."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-troubleshoot.php:160
+msgid ""
+"We were unable to copy the plugin file required to enable the "
+"Troubleshooting Mode."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-troubleshoot.php:204
+msgid ""
+"We were unable to replace the plugin file required to enable the "
+"Troubleshooting Mode."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-troubleshoot.php:227
+msgid ""
+"You have successfully enabled Troubleshooting Mode, all plugins will appear "
+"inactive until you disable Troubleshooting Mode, or log out and back in "
+"again."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-troubleshoot.php:231
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-troubleshoot.php:309
+msgid "Enable Troubleshooting Mode"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-wp-cron.php:51
+msgid "No scheduled events exist on this site."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check.php:194
+msgid "Please wait..."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check.php:195
+msgid "Copied"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check.php:196
+msgid "Currently being tested..."
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check.php:267
+msgid "Troubleshoot"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check.php:294
+msgid "Site Status"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check.php:295
+msgid "Debug Information"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check.php:296
+msgid "Troubleshooting"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check.php:297
+msgid "PHP Information"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check.php:298
+msgid "Tools"
+msgstr ""
+
+#: includes/lib/td-health-check/modals/backup-warning.php:4
+msgid "Remember to keep backups"
+msgstr ""
+
+#: includes/lib/td-health-check/modals/backup-warning.php:8
+msgid ""
+"Because of how Troubleshooting Mode functions, unforeseen conflicts with "
+"other plugins or themes may in rare cases occur, leading to unexpected "
+"behaviors."
+msgstr ""
+
+#: includes/lib/td-health-check/modals/backup-warning.php:12
+msgid ""
+"We therefore strongly recommend <a "
+"href=\"https://codex.wordpress.org/WordPress_Backups\">making a backup of "
+"your site</a> before you enable troubleshooting mode."
+msgstr ""
+
+#: includes/lib/td-health-check/modals/backup-warning.php:16
+msgid ""
+"Additionally, since we really want to make this plugin as safe as possible, "
+"if you should have any problems with the troubleshooting mode, please "
+"create a new topic in the <a "
+"href=\"https://wordpress.org/support/plugin/health-check\">plugins support "
+"forum</a> with details about what theme and what plugins you’re using and "
+"the steps needed to reproduce the problem. This will help us to analyze and "
+"fix such problems."
+msgstr ""
+
+#: includes/lib/td-health-check/modals/backup-warning.php:20
+msgid "I understand"
+msgstr ""
+
+#: includes/lib/td-health-check/pages/debug-data.php:21
+msgid ""
+"The system information shown below can also be copied and pasted into "
+"support requests such as on the WordPress.org forums, or to your theme and "
+"plugin developers."
+msgstr ""
+
+#: includes/lib/td-health-check/pages/debug-data.php:24
+msgid "Show copy and paste field"
+msgstr ""
+
+#: includes/lib/td-health-check/pages/debug-data.php:26
+msgid "Show copy and paste field in English"
+msgstr ""
+
+#: includes/lib/td-health-check/pages/debug-data.php:84
+#: includes/lib/td-health-check/pages/debug-data.php:136
+msgid ""
+"Some information may be filtered out from the list you are about to copy, "
+"this is information that may be considered private, and is not meant to be "
+"shared in a public forum."
+msgstr ""
+
+#: includes/lib/td-health-check/pages/debug-data.php:86
+#: includes/lib/td-health-check/pages/debug-data.php:138
+msgid "Mark field for copying"
+msgstr ""
+
+#: includes/lib/td-health-check/pages/debug-data.php:144
+msgid "Table Of Contents"
+msgstr ""
+
+#: includes/lib/td-health-check/pages/debug-data.php:219
+msgid "Return to table of contents"
+msgstr ""
+
+#: includes/lib/td-health-check/pages/phpinfo.php:18
+msgid ""
+"The phpinfo() function has been disabled by your host. Please contact the "
+"host if you need more information about your setup."
+msgstr ""
+
+#: includes/lib/td-health-check/pages/phpinfo.php:26
+msgid ""
+"Some scenarios require you to look up more detailed server configurations "
+"than what is normally required. This page allows you to view all available "
+"configuration options for your PHP setup. Please be advised that WordPress "
+"does not guarantee that any information shown on this page may not be "
+"considered private."
+msgstr ""
+
+#: includes/lib/td-health-check/pages/site-status.php:16
+msgid ""
+"The health check shows critical information about your WordPress "
+"configuration and items that require your attention."
+msgstr ""
+
+#: includes/lib/td-health-check/pages/site-status.php:23
+msgid "WordPress Version"
+msgstr ""
+
+#: includes/lib/td-health-check/pages/site-status.php:30
+msgid "Plugin Versions"
+msgstr ""
+
+#: includes/lib/td-health-check/pages/site-status.php:37
+msgid "Theme Versions"
+msgstr ""
+
+#: includes/lib/td-health-check/pages/site-status.php:52
+msgid "Database Server version"
+msgstr ""
+
+#: includes/lib/td-health-check/pages/site-status.php:60
+msgid "JSON Extension"
+msgstr ""
+
+#: includes/lib/td-health-check/pages/site-status.php:67
+msgid "MySQL utf8mb4 support"
+msgstr ""
+
+#: includes/lib/td-health-check/pages/site-status.php:81
+#: languages/admin-app-translations.php:746
+msgid "HTTPS status"
+msgstr ""
+
+#: includes/lib/td-health-check/pages/site-status.php:88
+msgid "Secure communication"
+msgstr ""
+
+#: includes/lib/td-health-check/pages/site-status.php:95
+#: languages/admin-app-translations.php:748
+msgid "Scheduled events"
+msgstr ""
+
+#: includes/lib/td-health-check/pages/site-status.php:102
+msgid "Background updates"
+msgstr ""
+
+#: includes/lib/td-health-check/pages/site-status.php:109
+msgid "Loopback request"
+msgstr ""
+
+#: includes/lib/td-health-check/pages/troubleshoot.php:16
+msgid ""
+"When troubleshooting issues on your site, you are likely to be told to "
+"disable all plugins and switch to the default theme."
+msgstr ""
+
+#: includes/lib/td-health-check/pages/troubleshoot.php:17
+msgid ""
+"Understandably, you do not wish to do so as it may affect your site "
+"visitors, leaving them with lost functionality."
+msgstr ""
+
+#: includes/lib/td-health-check/pages/troubleshoot.php:21
+msgid ""
+"By enabling the Troubleshooting Mode, all plugins will appear inactive and "
+"your site will switch to the default theme only for you. All other users "
+"will see your site as usual."
+msgstr ""
+
+#: includes/lib/td-health-check/pages/troubleshoot.php:25
+msgid ""
+"A Troubleshooting Mode menu is added to your admin bar, which will allow "
+"you to enable plugins individually, switch back to your current theme, and "
+"disable Troubleshooting Mode."
+msgstr ""
+
+#: includes/lib/td-health-check/pages/troubleshoot.php:29
+msgid ""
+"Please note, that due to how Must Use plugins work, any such plugin will "
+"not be disabled for the troubleshooting session."
+msgstr ""
+
+#: includes/lib/td-util/extended-cpts/src/class-extended-cpt-admin.php:970
+#: includes/lib/td-util/extended-cpts/src/class-extended-cpt-admin.php:997
+#. translators: %s: The ID of the Posts 2 Posts connection type
+msgid "Invalid connection type: %s"
+msgstr ""
+
+#: includes/lib/td-util/extended-cpts/src/class-extended-cpt.php:677
+#. translators: %s: Post type query variable name
+msgid ""
+"Post type query var \"%s\" clashes with a taxonomy query var of the same "
+"name"
+msgstr ""
+
+#: includes/lib/td-util/extended-cpts/src/class-extended-taxonomy-admin.php:422
+msgid "Not specified"
+msgstr ""
+
+#: includes/lib/td-util/extended-cpts/src/class-extended-taxonomy.php:212
+#. translators: %s: Taxonomy query variable name
+msgid ""
+"Taxonomy query var \"%s\" clashes with a post type query var of the same "
+"name"
+msgstr ""
+
+#: includes/lib/td-util/extended-cpts/src/class-extended-taxonomy.php:218
+#. translators: %s: Taxonomy query variable name
+msgid "Taxonomy query var \"%s\" is not allowed"
+msgstr ""
+
+#: languages/admin-app-translations.php:4
+msgid "Setting Up"
+msgstr ""
+
+#: languages/admin-app-translations.php:5
+msgid "Save"
+msgstr ""
+
+#: languages/admin-app-translations.php:6
+msgid "Save and Continue"
+msgstr ""
+
+#: languages/admin-app-translations.php:7
+#: languages/booking-app-translations.php:26
+msgid "Saving"
+msgstr ""
+
+#: languages/admin-app-translations.php:8
+msgid "OK"
+msgstr ""
+
+#: languages/admin-app-translations.php:9
+#: languages/admin-app-translations.php:592
+msgid "Cancel"
+msgstr ""
+
+#: languages/admin-app-translations.php:11
+msgid "Back to WordPress dashboard"
+msgstr ""
+
+#: languages/admin-app-translations.php:15
+#: languages/admin-app-translations.php:589
+msgid "Clone"
+msgstr ""
+
+#: languages/admin-app-translations.php:16
+#: languages/admin-app-translations.php:380
+#: languages/admin-app-translations.php:504
+#: languages/admin-app-translations.php:575
+#: languages/admin-app-translations.php:590
+msgid "Delete"
+msgstr ""
+
+#: languages/admin-app-translations.php:17
+#: languages/admin-app-translations.php:587
+msgid "Edit"
+msgstr ""
+
+#: languages/admin-app-translations.php:18
+#: languages/booking-app-translations.php:74
+msgid "Retry"
+msgstr ""
+
+#: languages/admin-app-translations.php:26
+#: languages/booking-app-translations.php:87
+msgid "minute"
+msgstr ""
+
+#: languages/admin-app-translations.php:27
+#: languages/booking-app-translations.php:88
+msgid "minutes"
+msgstr ""
+
+#: languages/admin-app-translations.php:31
+#: languages/booking-app-translations.php:93
+msgid "hour"
+msgstr ""
+
+#: languages/admin-app-translations.php:32
+#: languages/booking-app-translations.php:94
+msgid "hours"
+msgstr ""
+
+#: languages/admin-app-translations.php:36
+#: languages/booking-app-translations.php:91
+msgid "day"
+msgstr ""
+
+#: languages/admin-app-translations.php:37
+#: languages/booking-app-translations.php:92
+msgid "days"
+msgstr ""
+
+#: languages/admin-app-translations.php:41
+#: languages/booking-app-translations.php:89
+msgid "week"
+msgstr ""
+
+#: languages/admin-app-translations.php:42
+#: languages/booking-app-translations.php:90
+msgid "weeks"
+msgstr ""
+
+#: languages/admin-app-translations.php:48
+msgid "Oh, for fox sake"
+msgstr ""
+
+#: languages/admin-app-translations.php:49
+msgid "We ran into a problem:"
+msgstr ""
+
+#: languages/admin-app-translations.php:50
+msgid "We were unable to load the appointments"
+msgstr ""
+
+#: languages/admin-app-translations.php:51
+msgid "Appointment type name is required"
+msgstr ""
+
+#: languages/admin-app-translations.php:52
+msgid "We were unable to save your changes"
+msgstr ""
+
+#: languages/admin-app-translations.php:53
+msgid "Unable to delete appointment type"
+msgstr ""
+
+#: languages/admin-app-translations.php:54
+msgid "More info"
+msgstr ""
+
+#: languages/admin-app-translations.php:55
+msgid "First things first - set up your first appointment type."
+msgstr ""
+
+#: languages/admin-app-translations.php:59
+msgid "Welcome to Simply Schedule Appointments"
+msgstr ""
+
+#: languages/admin-app-translations.php:60
+msgid "It looks like it's your first time here. Can we help you get set up?"
+msgstr ""
+
+#: languages/admin-app-translations.php:61
+msgid "Yes, help me please!"
+msgstr ""
+
+#: languages/admin-app-translations.php:62
+msgid "No, thanks. I got this."
+msgstr ""
+
+#: languages/admin-app-translations.php:66
+msgid "Skip this for now"
+msgstr ""
+
+#: languages/admin-app-translations.php:67
+msgid "Next"
+msgstr ""
+
+#: languages/admin-app-translations.php:72
+msgid "First things first. Got your license key handy?"
+msgstr ""
+
+#: languages/admin-app-translations.php:76
+msgid "Detecting your settings"
+msgstr ""
+
+#: languages/admin-app-translations.php:77
+msgid "First things first, we detected these preferences. Are these correct?"
+msgstr ""
+
+#: languages/admin-app-translations.php:78
+msgid "Next, we detected these preferences. Are these correct?"
+msgstr ""
+
+#: languages/admin-app-translations.php:79
+msgid "Looks good! Let's go!"
+msgstr ""
+
+#: languages/admin-app-translations.php:80
+msgid "Needs some adjusting"
+msgstr ""
+
+#: languages/admin-app-translations.php:81
+msgid "Exit wizard and go to settings"
+msgstr ""
+
+#: languages/admin-app-translations.php:86
+msgid "Setting up your appointment type"
+msgstr ""
+
+#: languages/admin-app-translations.php:87
+msgid "Set up your first appointment type"
+msgstr ""
+
+#: languages/admin-app-translations.php:88
+msgid "Basics"
+msgstr ""
+
+#: languages/admin-app-translations.php:89
+msgid "The basics for this type of appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:92
+msgid "Back"
+msgstr ""
+
+#: languages/admin-app-translations.php:93
+msgid "Continue"
+msgstr ""
+
+#: languages/admin-app-translations.php:95
+msgid "Availability"
+msgstr ""
+
+#: languages/admin-app-translations.php:96
+msgid "When are you available for this type of appointment?"
+msgstr ""
+
+#: languages/admin-app-translations.php:97
+msgid "Sync appointments with this calendar"
+msgstr ""
+
+#: languages/admin-app-translations.php:98
+msgid "Scheduling Options"
+msgstr ""
+
+#: languages/admin-app-translations.php:99
+msgid "Rules around how and when people can schedule this type of appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:100
+msgid "Customer Information"
+msgstr ""
+
+#: languages/admin-app-translations.php:101
+msgid "What do you need to know about your customer?"
+msgstr ""
+
+#: languages/admin-app-translations.php:102
+#: languages/admin-app-translations.php:304
+msgid "Notifications"
+msgstr ""
+
+#: languages/admin-app-translations.php:103
+msgid "Options for sending customer and admin notifications"
+msgstr ""
+
+#: languages/admin-app-translations.php:104
+msgid "Review"
+msgstr ""
+
+#: languages/admin-app-translations.php:105
+msgid "Make sure everything looks correct"
+msgstr ""
+
+#: languages/admin-app-translations.php:106
+msgid "Google Calendar"
+msgstr ""
+
+#: languages/admin-app-translations.php:107
+msgid "Synchronize your appointments with your Google calendar"
+msgstr ""
+
+#: languages/admin-app-translations.php:108
+msgid "Check these calendars for conflicts"
+msgstr ""
+
+#: languages/admin-app-translations.php:109
+#: languages/admin-app-translations.php:229
+msgid "MailChimp"
+msgstr ""
+
+#: languages/admin-app-translations.php:110
+msgid ""
+"Allow your customers to subscribe to a selected MailChimp list when booking "
+"an appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:111
+#: languages/admin-app-translations.php:457
+msgid "Webhooks"
+msgstr ""
+
+#: languages/admin-app-translations.php:112
+msgid "Integrate Simply Schedule Appointments with other apps and services"
+msgstr ""
+
+#: languages/admin-app-translations.php:113
+msgid "Booking Info"
+msgstr ""
+
+#: languages/admin-app-translations.php:114
+msgid "Let your customers book this appointment type"
+msgstr ""
+
+#: languages/admin-app-translations.php:115
+msgid ""
+"Use this shortcode in any post or page to create a general booking form "
+"where your customers can choose any appointment type"
+msgstr ""
+
+#: languages/admin-app-translations.php:116
+msgid ""
+"Use this shortcode in any post or page to create a special booking form "
+"where your customers can book just this appointment type"
+msgstr ""
+
+#: languages/admin-app-translations.php:117
+#: languages/admin-app-translations.php:240
+msgid "Payments"
+msgstr ""
+
+#: languages/admin-app-translations.php:118
+msgid "Take payments online at the time of booking"
+msgstr ""
+
+#: languages/admin-app-translations.php:122
+msgid "Want to sync with Google Calendar?"
+msgstr ""
+
+#: languages/admin-app-translations.php:123
+msgid "Show me how"
+msgstr ""
+
+#: languages/admin-app-translations.php:124
+msgid "Success! Your Google Calendar account is connected."
+msgstr ""
+
+#: languages/admin-app-translations.php:125
+msgid "Unable to get your Google calendars"
+msgstr ""
+
+#: languages/admin-app-translations.php:126
+msgid "Try disconnecting and reconnecting your Google account."
+msgstr ""
+
+#: languages/admin-app-translations.php:127
+msgid "Don't add newly booked appointments to my Google calendar"
+msgstr ""
+
+#: languages/admin-app-translations.php:131
+msgid "Congratulations! You're all set up."
+msgstr ""
+
+#: languages/admin-app-translations.php:132
+msgid ""
+"Display your booking form on any post or page with the shortcode, or use "
+"our Gutenberg block to add the booking form to a post or page."
+msgstr ""
+
+#: languages/admin-app-translations.php:133
+#: languages/booking-app-translations.php:56
+msgid "What would you like to do next?"
+msgstr ""
+
+#: languages/admin-app-translations.php:134
+msgid "Try booking an appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:135
+msgid "Go to settings"
+msgstr ""
+
+#: languages/admin-app-translations.php:136
+msgid "Set up another appointment type"
+msgstr ""
+
+#: languages/admin-app-translations.php:141
+msgid "Now available!"
+msgstr ""
+
+#: languages/admin-app-translations.php:142
+msgid ""
+"Set up unlimited webhooks, take payments with PayPal or Stripe, and send "
+"email and SMS reminders with Simply Schedule Appointments Pro Edition."
+msgstr ""
+
+#: languages/admin-app-translations.php:143
+msgid ""
+"Simply Schedule Appointments Plus allows you to sync your appointments with "
+"your Google Calendar, add your customers to your MailChimp list, and create "
+"booking forms for your customers."
+msgstr ""
+
+#: languages/admin-app-translations.php:144
+msgid "Available in Plus"
+msgstr ""
+
+#: languages/admin-app-translations.php:145
+msgid "Available in Pro"
+msgstr ""
+
+#: languages/admin-app-translations.php:150
+msgid "This feature isn't enabled. Would you like to enable it now?"
+msgstr ""
+
+#: languages/admin-app-translations.php:151
+msgid "Getting your appointments"
+msgstr ""
+
+#: languages/admin-app-translations.php:153
+msgid "Getting your appointment types"
+msgstr ""
+
+#: languages/admin-app-translations.php:155
+msgid "All"
+msgstr ""
+
+#: languages/admin-app-translations.php:157
+msgid "Coming Soon"
+msgstr ""
+
+#: languages/admin-app-translations.php:158
+msgid "Return to Settings"
+msgstr ""
+
+#: languages/admin-app-translations.php:159
+msgid "Feature not enabled"
+msgstr ""
+
+#: languages/admin-app-translations.php:160
+msgid ""
+"This feature is not currently enabled. Please enable this feature to view "
+"the settings."
+msgstr ""
+
+#: languages/admin-app-translations.php:163
+msgid "Advanced Scheduling Options"
+msgstr ""
+
+#: languages/admin-app-translations.php:164
+#: languages/admin-app-translations.php:593
+msgid "Update"
+msgstr ""
+
+#: languages/admin-app-translations.php:165
+msgid "This feature enables advanced scheduling options for appointment types."
+msgstr ""
+
+#: languages/admin-app-translations.php:166
+msgid "Edit Appointment Types"
+msgstr ""
+
+#: languages/admin-app-translations.php:167
+msgid "The booking end date must be after the booking start date"
+msgstr ""
+
+#: languages/admin-app-translations.php:168
+msgid "The availability end date must be after the availability start date"
+msgstr ""
+
+#: languages/admin-app-translations.php:172
+msgid "Blackout Dates"
+msgstr ""
+
+#: languages/admin-app-translations.php:173
+msgid ""
+"Blackout dates are dates blocked off your calendar entirely for all "
+"appointment types. Perfect for vacation days, travel days, or other days "
+"when you're not available for appointments."
+msgstr ""
+
+#: languages/admin-app-translations.php:177
+msgid "General Settings"
+msgstr ""
+
+#: languages/admin-app-translations.php:178
+msgid "Edit Settings"
+msgstr ""
+
+#: languages/admin-app-translations.php:179
+msgid "Timezone"
+msgstr ""
+
+#: languages/admin-app-translations.php:180
+msgid "Your WordPress setting doesn't appear to match your current location."
+msgstr ""
+
+#: languages/admin-app-translations.php:181
+msgid "Date Format"
+msgstr ""
+
+#: languages/admin-app-translations.php:182
+msgid "Time Format"
+msgstr ""
+
+#: languages/admin-app-translations.php:183
+msgid "Appointment Contact"
+msgstr ""
+
+#: languages/admin-app-translations.php:184
+msgid ""
+"Who are visitors booking their appointment with? (this is probably your "
+"name)"
+msgstr ""
+
+#: languages/admin-app-translations.php:185
+msgid "Appointment Contact name is required"
+msgstr ""
+
+#: languages/admin-app-translations.php:186
+msgid "Business Name"
+msgstr ""
+
+#: languages/admin-app-translations.php:187
+msgid "Business name is required"
+msgstr ""
+
+#: languages/admin-app-translations.php:188
+msgid "Default Admin Email"
+msgstr ""
+
+#: languages/admin-app-translations.php:189
+msgid "SSA will send an email to this email when a visitor books an appointment."
+msgstr ""
+
+#: languages/admin-app-translations.php:190
+msgid "Appointment email address is required"
+msgstr ""
+
+#: languages/admin-app-translations.php:191
+msgid "Admin phone number"
+msgstr ""
+
+#: languages/admin-app-translations.php:192
+#: languages/admin-app-translations.php:431
+#: languages/booking-app-translations.php:68
+msgid "Please enter a valid phone number"
+msgstr ""
+
+#: languages/admin-app-translations.php:193
+msgid "Number where SMS reminders will be sent"
+msgstr ""
+
+#: languages/admin-app-translations.php:194
+msgid "Week Starts On"
+msgstr ""
+
+#: languages/admin-app-translations.php:195
+msgid "Book an Appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:196
+#: languages/admin-app-translations.php:255
+#: languages/admin-app-translations.php:381
+#: languages/admin-app-translations.php:419
+#: languages/admin-app-translations.php:447
+#: languages/admin-app-translations.php:505
+#: languages/admin-app-translations.php:578
+msgid "Are you sure?"
+msgstr ""
+
+#: languages/admin-app-translations.php:197
+msgid "Your settings won't be saved if you leave the page."
+msgstr ""
+
+#: languages/admin-app-translations.php:201
+msgid "Google Calendar Sync"
+msgstr ""
+
+#: languages/admin-app-translations.php:202
+msgid "Connect Google Account"
+msgstr ""
+
+#: languages/admin-app-translations.php:203
+msgid "Disconnect"
+msgstr ""
+
+#: languages/admin-app-translations.php:204
+msgid "Connected account"
+msgstr ""
+
+#: languages/admin-app-translations.php:205
+msgid "Enter your Google API information below."
+msgstr ""
+
+#: languages/admin-app-translations.php:206
+msgid "Go Now"
+msgstr ""
+
+#: languages/admin-app-translations.php:207
+msgid "Client ID"
+msgstr ""
+
+#: languages/admin-app-translations.php:208
+msgid "Save and Authorize"
+msgstr ""
+
+#: languages/admin-app-translations.php:209
+msgid "Client Secret"
+msgstr ""
+
+#: languages/admin-app-translations.php:210
+msgid ""
+"1. Go to the Google Developer APIs and Services Dashboard. Create a new "
+"project or choose an existing one. If you have no idea what this is, you "
+"most likey want to \"Create\" a new one."
+msgstr ""
+
+#: languages/admin-app-translations.php:211
+msgid ""
+"2. If you chose to create a new project, enter a project name and be sure "
+"to click Yes to accept the Terms of Service before clicking Create."
+msgstr ""
+
+#: languages/admin-app-translations.php:212
+msgid ""
+"3. After you've selected or created your project, click Enable APIs and "
+"Services."
+msgstr ""
+
+#: languages/admin-app-translations.php:213
+msgid "4. You'll be taken to the Google API Library. Search for \"calendar\"."
+msgstr ""
+
+#: languages/admin-app-translations.php:214
+msgid "5. Select the Google Calendar API."
+msgstr ""
+
+#: languages/admin-app-translations.php:215
+msgid "6. Click Enable to enable the Google Calendar API"
+msgstr ""
+
+#: languages/admin-app-translations.php:216
+msgid ""
+"7. Select Credentials from the left menu, then select OAuth Consent Screen "
+"from the top tabs. Select an email address and product name. All other "
+"fields are optional and can be skipped. Click Save."
+msgstr ""
+
+#: languages/admin-app-translations.php:217
+msgid ""
+"8. Click Credentials on the top tab and then the Create credentials button. "
+"Select OAuth client ID from the dropdown."
+msgstr ""
+
+#: languages/admin-app-translations.php:218
+msgid ""
+"9. Select Web application as the application type and enter a name. Under "
+"Restrictions, look for Authorized redirect URLs and enter "
+"https://auth.simplyscheduleappointments.com. Click Create. (You may need to "
+"click Create twice)"
+msgstr ""
+
+#: languages/admin-app-translations.php:219
+msgid ""
+"10. Copy your client ID and client secret to the fields below. Hooray! "
+"You're done!"
+msgstr ""
+
+#: languages/admin-app-translations.php:223
+msgid "Manage License"
+msgstr ""
+
+#: languages/admin-app-translations.php:224
+msgid "License Key"
+msgstr ""
+
+#: languages/admin-app-translations.php:225
+msgid "Validating..."
+msgstr ""
+
+#: languages/admin-app-translations.php:230
+msgid "API Key"
+msgstr ""
+
+#: languages/admin-app-translations.php:231
+msgid "Please enter a valid API key"
+msgstr ""
+
+#: languages/admin-app-translations.php:232
+msgid "Where do I find this?"
+msgstr ""
+
+#: languages/admin-app-translations.php:233
+msgid "Save and authorize"
+msgstr ""
+
+#: languages/admin-app-translations.php:234
+msgid "MailChimp Lists"
+msgstr ""
+
+#: languages/admin-app-translations.php:235
+msgid "Getting your lists"
+msgstr ""
+
+#: languages/admin-app-translations.php:236
+msgid "Disconnecting your account"
+msgstr ""
+
+#: languages/admin-app-translations.php:241
+msgid "Edit settings"
+msgstr ""
+
+#: languages/admin-app-translations.php:242
+msgid "Return to Payments"
+msgstr ""
+
+#: languages/admin-app-translations.php:243
+msgid "Basic Settings"
+msgstr ""
+
+#: languages/admin-app-translations.php:244
+msgid "The required settings for this payment gateway"
+msgstr ""
+
+#: languages/admin-app-translations.php:245
+msgid "Advanced Settings"
+msgstr ""
+
+#: languages/admin-app-translations.php:246
+msgid "Optional settings to fine-tune the way this payment gateway works"
+msgstr ""
+
+#: languages/admin-app-translations.php:247
+msgid "Display title"
+msgstr ""
+
+#: languages/admin-app-translations.php:248
+msgid "This controls the title which your customer sees during checkout."
+msgstr ""
+
+#: languages/admin-app-translations.php:249
+msgid "The display title is required"
+msgstr ""
+
+#: languages/admin-app-translations.php:250
+#: languages/admin-app-translations.php:498
+msgid "Description"
+msgstr ""
+
+#: languages/admin-app-translations.php:251
+msgid "This controls the description which your customer sees during checkout."
+msgstr ""
+
+#: languages/admin-app-translations.php:252
+msgid "Statement Descriptor"
+msgstr ""
+
+#: languages/admin-app-translations.php:253
+msgid "5-22 alphanumeric characters with at least one letter, and no < > \\ ' or \""
+msgstr ""
+
+#: languages/admin-app-translations.php:254
+msgid "Appears in all caps on your customer's credit card statement."
+msgstr ""
+
+#: languages/admin-app-translations.php:256
+msgid "Your changes to this payment gateway won't be saved"
+msgstr ""
+
+#: languages/admin-app-translations.php:257
+#: languages/admin-app-translations.php:383
+#: languages/admin-app-translations.php:421
+#: languages/admin-app-translations.php:507
+#: languages/admin-app-translations.php:580
+msgid "Discard changes"
+msgstr ""
+
+#: languages/admin-app-translations.php:258
+#: languages/admin-app-translations.php:384
+#: languages/admin-app-translations.php:422
+#: languages/admin-app-translations.php:508
+#: languages/admin-app-translations.php:581
+msgid "Continue editing"
+msgstr ""
+
+#: languages/admin-app-translations.php:259
+msgid "Default currency"
+msgstr ""
+
+#: languages/admin-app-translations.php:262
+msgid "PayPal email address"
+msgstr ""
+
+#: languages/admin-app-translations.php:263
+msgid ""
+"Please enter your PayPal email address; this is needed in order to take "
+"payment."
+msgstr ""
+
+#: languages/admin-app-translations.php:264
+msgid "A valid email address is required."
+msgstr ""
+
+#: languages/admin-app-translations.php:265
+msgid "Enable PayPal sandbox"
+msgstr ""
+
+#: languages/admin-app-translations.php:266
+msgid "PayPal sandbox can be used to test payments."
+msgstr ""
+
+#: languages/admin-app-translations.php:267
+msgid "Sign up for a developer account."
+msgstr ""
+
+#: languages/admin-app-translations.php:268
+msgid "PayPal identity token"
+msgstr ""
+
+#: languages/admin-app-translations.php:269
+msgid ""
+"Optionally enable Payment Data Transfer (Profile > Profile and Settings > "
+"My Selling Tools > Website Preferences) and then copy your identity token "
+"here. This will allow payments to be verified without the need for PayPal "
+"IPN."
+msgstr ""
+
+#: languages/admin-app-translations.php:270
+msgid "PayPal is not connected to your PayPal account"
+msgstr ""
+
+#: languages/admin-app-translations.php:271
+msgid "PayPal is in sandbox mode."
+msgstr ""
+
+#: languages/admin-app-translations.php:272
+msgid "IPN Notification URL"
+msgstr ""
+
+#: languages/admin-app-translations.php:273
+msgid "Your PayPal IPN Notification URL has been copied to your clipboard"
+msgstr ""
+
+#: languages/admin-app-translations.php:274
+msgid "You must add this URL to your PayPal settings."
+msgstr ""
+
+#: languages/admin-app-translations.php:275
+msgid "Get instructions."
+msgstr ""
+
+#: languages/admin-app-translations.php:276
+msgid "A valid SSL certficate is required to use PayPal payments"
+msgstr ""
+
+#: languages/admin-app-translations.php:280
+msgid "Publishable key"
+msgstr ""
+
+#: languages/admin-app-translations.php:281
+msgid "A publishable key is required"
+msgstr ""
+
+#: languages/admin-app-translations.php:282
+#: languages/admin-app-translations.php:285
+#: languages/admin-app-translations.php:293
+#: languages/admin-app-translations.php:296
+msgid "Get your API keys from your Stripe account."
+msgstr ""
+
+#: languages/admin-app-translations.php:283
+msgid "Secret key"
+msgstr ""
+
+#: languages/admin-app-translations.php:284
+msgid "A secret key is required"
+msgstr ""
+
+#: languages/admin-app-translations.php:286
+msgid "Stripe Webhook URL"
+msgstr ""
+
+#: languages/admin-app-translations.php:287
+msgid "You must add this URL to"
+msgstr ""
+
+#: languages/admin-app-translations.php:288
+msgid "your Stripe account Webhook settings"
+msgstr ""
+
+#: languages/admin-app-translations.php:289
+msgid "The webhook has been copied to your clipboard"
+msgstr ""
+
+#: languages/admin-app-translations.php:290
+msgid "Enable test mode"
+msgstr ""
+
+#: languages/admin-app-translations.php:291
+msgid "Place the payment gateway in test mode using test API keys."
+msgstr ""
+
+#: languages/admin-app-translations.php:292
+msgid "Test publishable key"
+msgstr ""
+
+#: languages/admin-app-translations.php:294
+msgid "The test publishable key is required for test mode"
+msgstr ""
+
+#: languages/admin-app-translations.php:295
+msgid "Test secret key"
+msgstr ""
+
+#: languages/admin-app-translations.php:297
+msgid "The secret key is required for test mode"
+msgstr ""
+
+#: languages/admin-app-translations.php:298
+msgid "Stripe is not connected to your Stripe account"
+msgstr ""
+
+#: languages/admin-app-translations.php:299
+msgid "Stripe is in test mode."
+msgstr ""
+
+#: languages/admin-app-translations.php:305
+msgid "These notifications are sent for this appointment type:"
+msgstr ""
+
+#: languages/admin-app-translations.php:306
+msgid "There are no notifications."
+msgstr ""
+
+#: languages/admin-app-translations.php:307
+msgid "There are no notifications sent for this appointment type"
+msgstr ""
+
+#: languages/admin-app-translations.php:308
+msgid "Return to notifications"
+msgstr ""
+
+#: languages/admin-app-translations.php:309
+msgid "Edit notifications"
+msgstr ""
+
+#: languages/admin-app-translations.php:310
+msgid "Customer phone number"
+msgstr ""
+
+#: languages/admin-app-translations.php:313
+msgid "Add a new notification"
+msgstr ""
+
+#: languages/admin-app-translations.php:314
+msgid "Edit notification"
+msgstr ""
+
+#: languages/admin-app-translations.php:319
+#: languages/admin-app-translations.php:624
+msgid "Type"
+msgstr ""
+
+#: languages/admin-app-translations.php:321
+#: languages/admin-app-translations.php:396
+msgid "SMS"
+msgstr ""
+
+#: languages/admin-app-translations.php:322
+#: languages/admin-app-translations.php:323
+#: languages/admin-app-translations.php:430
+msgid "Send to"
+msgstr ""
+
+#: languages/admin-app-translations.php:324
+msgid "Cc"
+msgstr ""
+
+#: languages/admin-app-translations.php:325
+msgid "Bcc"
+msgstr ""
+
+#: languages/admin-app-translations.php:326
+msgid "Trigger"
+msgstr ""
+
+#: languages/admin-app-translations.php:327
+msgid "When to send this notification"
+msgstr ""
+
+#: languages/admin-app-translations.php:328
+msgid "When"
+msgstr ""
+
+#: languages/admin-app-translations.php:329
+msgid "Subject"
+msgstr ""
+
+#: languages/admin-app-translations.php:330
+msgid "Message"
+msgstr ""
+
+#: languages/admin-app-translations.php:334
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: languages/admin-app-translations.php:335
+msgid "Please select at least one recipient"
+msgstr ""
+
+#: languages/admin-app-translations.php:336
+msgid "You must select a trigger for a notification"
+msgstr ""
+
+#: languages/admin-app-translations.php:337
+msgid "Please select at least one appointment type"
+msgstr ""
+
+#: languages/admin-app-translations.php:338
+msgid "Subject is required"
+msgstr ""
+
+#: languages/admin-app-translations.php:339
+msgid "Message is required"
+msgstr ""
+
+#: languages/admin-app-translations.php:340
+msgid "No admin phone number is set"
+msgstr ""
+
+#: languages/admin-app-translations.php:341
+msgid "No appointment types have phone number fields"
+msgstr ""
+
+#: languages/admin-app-translations.php:343
+msgid "Notification Template Details"
+msgstr ""
+
+#: languages/admin-app-translations.php:344
+msgid ""
+"Notification templates are created with Twig. The following tokens are "
+"available."
+msgstr ""
+
+#: languages/admin-app-translations.php:347
+msgid "The appointment admin email"
+msgstr ""
+
+#: languages/admin-app-translations.php:348
+msgid ""
+"The optional customer instructions associated with the selected appointment "
+"type."
+msgstr ""
+
+#: languages/admin-app-translations.php:349
+msgid "The title of the selected appointment type"
+msgstr ""
+
+#: languages/admin-app-translations.php:350
+msgid "Summary of the customer information fields for the appointment type"
+msgstr ""
+
+#: languages/admin-app-translations.php:351
+#: languages/admin-app-translations.php:355
+msgid "The customer's name"
+msgstr ""
+
+#: languages/admin-app-translations.php:352
+msgid "The timezone in which the appointment was booked"
+msgstr ""
+
+#: languages/admin-app-translations.php:353
+msgid "The link to edit, cancel, or reschedule the appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:354
+msgid "The start date and time of the appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:356
+msgid "The customer's email address."
+msgstr ""
+
+#: languages/admin-app-translations.php:357
+msgid "The URL of the site where Simply Schedule Appointments is installed"
+msgstr ""
+
+#: languages/admin-app-translations.php:358
+msgid "The timezone selected in the Simply Schedule Appointments settings."
+msgstr ""
+
+#: languages/admin-app-translations.php:362
+#: languages/admin-app-translations.php:479
+msgid "Appointment Booked"
+msgstr ""
+
+#: languages/admin-app-translations.php:363
+#: languages/admin-app-translations.php:480
+msgid "Appointment Edited"
+msgstr ""
+
+#: languages/admin-app-translations.php:364
+#: languages/admin-app-translations.php:481
+msgid "Appointment Canceled"
+msgstr ""
+
+#: languages/admin-app-translations.php:365
+msgid "Appointment Rescheduled"
+msgstr ""
+
+#: languages/admin-app-translations.php:366
+msgid "Time of Appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:370
+msgid "This notification might be delayed or not sent as expected."
+msgstr ""
+
+#: languages/admin-app-translations.php:371
+msgid "More details"
+msgstr ""
+
+#: languages/admin-app-translations.php:375
+msgid "After"
+msgstr ""
+
+#: languages/admin-app-translations.php:376
+msgid "Before"
+msgstr ""
+
+#: languages/admin-app-translations.php:378
+msgid "Delete this notification?"
+msgstr ""
+
+#: languages/admin-app-translations.php:379
+#: languages/admin-app-translations.php:503
+#: languages/admin-app-translations.php:576
+msgid "Keep"
+msgstr ""
+
+#: languages/admin-app-translations.php:382
+msgid "Your changes to this notification won't be saved"
+msgstr ""
+
+#: languages/admin-app-translations.php:385
+msgid "Cc/Bcc"
+msgstr ""
+
+#: languages/admin-app-translations.php:388
+msgid "Getting appointments..."
+msgstr ""
+
+#: languages/admin-app-translations.php:389
+msgid "Select an appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:390
+msgid "Select an appointment type"
+msgstr ""
+
+#: languages/admin-app-translations.php:391
+msgid "Formatting your preview..."
+msgstr ""
+
+#: languages/admin-app-translations.php:397
+msgid "Basic settings"
+msgstr ""
+
+#: languages/admin-app-translations.php:398
+msgid "The required settings for Twilio"
+msgstr ""
+
+#: languages/admin-app-translations.php:399
+msgid "Twilio Account SID"
+msgstr ""
+
+#: languages/admin-app-translations.php:400
+msgid "A Twilio Account SID is required"
+msgstr ""
+
+#: languages/admin-app-translations.php:401
+msgid "Get your Twilio Account SID from your Twilio account"
+msgstr ""
+
+#: languages/admin-app-translations.php:402
+msgid "Twilio Auth Token"
+msgstr ""
+
+#: languages/admin-app-translations.php:403
+msgid "A Twilio Auth Token is required"
+msgstr ""
+
+#: languages/admin-app-translations.php:404
+msgid "Get your Twilio Auth Token from your Twilio account"
+msgstr ""
+
+#: languages/admin-app-translations.php:405
+msgid "Sending Phone Number (from Twilio)"
+msgstr ""
+
+#: languages/admin-app-translations.php:406
+msgid "You need a Twilio phone number to send SMS messages"
+msgstr ""
+
+#: languages/admin-app-translations.php:407
+msgid "Get a Twilio phone number"
+msgstr ""
+
+#: languages/admin-app-translations.php:408
+msgid "Advanced settings"
+msgstr ""
+
+#: languages/admin-app-translations.php:409
+msgid "Optional advanced settings for Twilio"
+msgstr ""
+
+#: languages/admin-app-translations.php:410
+msgid "Test mode"
+msgstr ""
+
+#: languages/admin-app-translations.php:411
+msgid "Place Twilio in test mode to use test account SID and test auth token"
+msgstr ""
+
+#: languages/admin-app-translations.php:412
+msgid "Twilio is in test mode."
+msgstr ""
+
+#: languages/admin-app-translations.php:413
+msgid "Twilio Test Account SID"
+msgstr ""
+
+#: languages/admin-app-translations.php:414
+msgid "The test account SID is required for test mode"
+msgstr ""
+
+#: languages/admin-app-translations.php:415
+msgid "Get your Twilio Test Account SID from your Twilio account"
+msgstr ""
+
+#: languages/admin-app-translations.php:416
+msgid "Twilio Test Auth Token"
+msgstr ""
+
+#: languages/admin-app-translations.php:417
+msgid "The test account auth token is required for test mode"
+msgstr ""
+
+#: languages/admin-app-translations.php:418
+msgid "Get your Twilio Test Account Auth Token from your Twilio account"
+msgstr ""
+
+#: languages/admin-app-translations.php:420
+msgid "Your changes to the SMS settings won't be saved"
+msgstr ""
+
+#: languages/admin-app-translations.php:423
+msgid "Twilio is enabled, but your account is not connected."
+msgstr ""
+
+#: languages/admin-app-translations.php:424
+msgid "Only appointment types with at least one phone number field are displayed."
+msgstr ""
+
+#: languages/admin-app-translations.php:425
+msgid "None of your appointment types have phone number fields"
+msgstr ""
+
+#: languages/admin-app-translations.php:426
+msgid "No phone numbers"
+msgstr ""
+
+#: languages/admin-app-translations.php:427
+msgid ""
+"None of your appointments types is collecting a phone number from your "
+"customers. There is no way to send an SMS notification."
+msgstr ""
+
+#: languages/admin-app-translations.php:428
+msgid "Send a test message"
+msgstr ""
+
+#: languages/admin-app-translations.php:429
+msgid "Test your Twilio API settings and ensure messages are delivered"
+msgstr ""
+
+#: languages/admin-app-translations.php:432
+msgid "The phone number to send a test message to"
+msgstr ""
+
+#: languages/admin-app-translations.php:433
+msgid "Test message sent!"
+msgstr ""
+
+#: languages/admin-app-translations.php:434
+msgid "Unable to send test message. Please check your settings."
+msgstr ""
+
+#: languages/admin-app-translations.php:438
+msgid "Styles"
+msgstr ""
+
+#: languages/admin-app-translations.php:439
+msgid "Edit styles"
+msgstr ""
+
+#: languages/admin-app-translations.php:440
+msgid "Accent color"
+msgstr ""
+
+#: languages/admin-app-translations.php:441
+msgid "Background color"
+msgstr ""
+
+#: languages/admin-app-translations.php:442
+msgid "Contrast mode"
+msgstr ""
+
+#: languages/admin-app-translations.php:443
+msgid "Enable contrast mode if you're using a dark background color"
+msgstr ""
+
+#: languages/admin-app-translations.php:444
+msgid "Font family"
+msgstr ""
+
+#: languages/admin-app-translations.php:445
+msgid "Padding"
+msgstr ""
+
+#: languages/admin-app-translations.php:446
+msgid "Reset to default"
+msgstr ""
+
+#: languages/admin-app-translations.php:448
+msgid ""
+"Your settings will be lost and all styles will be reset to the default "
+"values."
+msgstr ""
+
+#: languages/admin-app-translations.php:449
+msgid "Padding is required. Enter 0 for no padding."
+msgstr ""
+
+#: languages/admin-app-translations.php:450
+msgid "You may use any valid CSS measurement unit: %, em, px, vw, rem, etc."
+msgstr ""
+
+#: languages/admin-app-translations.php:451
+msgid "View the Google Fonts library"
+msgstr ""
+
+#: languages/admin-app-translations.php:452
+msgid "Custom CSS"
+msgstr ""
+
+#: languages/admin-app-translations.php:453
+msgid "Enter your custom CSS here"
+msgstr ""
+
+#: languages/admin-app-translations.php:458
+msgid "Manage webhooks"
+msgstr ""
+
+#: languages/admin-app-translations.php:461
+msgid "Add a new webhook"
+msgstr ""
+
+#: languages/admin-app-translations.php:462
+msgid "Edit webhook"
+msgstr ""
+
+#: languages/admin-app-translations.php:464
+msgid "The following webhooks are triggered for this appointment type:"
+msgstr ""
+
+#: languages/admin-app-translations.php:465
+msgid "There are no webhooks."
+msgstr ""
+
+#: languages/admin-app-translations.php:466
+msgid "There are no webhooks triggered by this appointment type"
+msgstr ""
+
+#: languages/admin-app-translations.php:470
+msgid "Token"
+msgstr ""
+
+#: languages/admin-app-translations.php:471
+msgid ""
+"This token will be sent in the outgoing payload to help you verify the "
+"request came from Simply Schedule Appointments"
+msgstr ""
+
+#: languages/admin-app-translations.php:472
+msgid "Token is required. Hit the refresh button to generate a random token."
+msgstr ""
+
+#: languages/admin-app-translations.php:473
+msgid "Token copied to clipboard"
+msgstr ""
+
+#: languages/admin-app-translations.php:474
+msgid "Select the triggers for this webhook:"
+msgstr ""
+
+#: languages/admin-app-translations.php:475
+msgid "Trigger:"
+msgstr ""
+
+#: languages/admin-app-translations.php:476
+msgid "Triggers:"
+msgstr ""
+
+#: languages/admin-app-translations.php:483
+msgid "URLs"
+msgstr ""
+
+#: languages/admin-app-translations.php:484
+msgid "That URL has already been added for this webhook"
+msgstr ""
+
+#: languages/admin-app-translations.php:485
+msgid "Please enter a valid URL"
+msgstr ""
+
+#: languages/admin-app-translations.php:489
+msgid "You must select at least one trigger for this webhook"
+msgstr ""
+
+#: languages/admin-app-translations.php:490
+msgid "You must enter at least one URL for this webhook"
+msgstr ""
+
+#: languages/admin-app-translations.php:491
+msgid "You must select at least one appointment type"
+msgstr ""
+
+#: languages/admin-app-translations.php:495
+msgid "Delivery headers"
+msgstr ""
+
+#: languages/admin-app-translations.php:496
+msgid ""
+"HTTP POST payloads that are delivered to your webhook's configured URL "
+"endpoint will contain several special headers:"
+msgstr ""
+
+#: languages/admin-app-translations.php:497
+msgid "Header"
+msgstr ""
+
+#: languages/admin-app-translations.php:500
+msgid "Example delivery"
+msgstr ""
+
+#: languages/admin-app-translations.php:502
+msgid "Delete this webhook?"
+msgstr ""
+
+#: languages/admin-app-translations.php:506
+msgid "Your changes to this webhook won't be saved"
+msgstr ""
+
+#: languages/admin-app-translations.php:514
+msgid "Appointment types must have names"
+msgstr ""
+
+#: languages/admin-app-translations.php:515
+msgid "There are no appointment types."
+msgstr ""
+
+#: languages/admin-app-translations.php:516
+msgid "Shortcode copied to clipboard"
+msgstr ""
+
+#: languages/admin-app-translations.php:517
+msgid "Changes will be applied to the following appointment types: "
+msgstr ""
+
+#: languages/admin-app-translations.php:518
+msgid "Duration"
+msgstr ""
+
+#: languages/admin-app-translations.php:519
+msgid "Duration Units"
+msgstr ""
+
+#: languages/admin-app-translations.php:520
+#: languages/admin-app-translations.php:622
+msgid "Label"
+msgstr ""
+
+#: languages/admin-app-translations.php:521
+msgid "Slug"
+msgstr ""
+
+#: languages/admin-app-translations.php:522
+msgid "Slug is required for appointment types"
+msgstr ""
+
+#: languages/admin-app-translations.php:523
+msgid "Booking view"
+msgstr ""
+
+#: languages/admin-app-translations.php:526
+msgid "Weekly"
+msgstr ""
+
+#: languages/admin-app-translations.php:527
+msgid "Monthly"
+msgstr ""
+
+#: languages/admin-app-translations.php:529
+msgid "Visibility"
+msgstr ""
+
+#: languages/admin-app-translations.php:532
+msgid "Public"
+msgstr ""
+
+#: languages/admin-app-translations.php:533
+msgid "Private"
+msgstr ""
+
+#: languages/admin-app-translations.php:535
+#: languages/admin-app-translations.php:628
+msgid "Instructions"
+msgstr ""
+
+#: languages/admin-app-translations.php:536
+msgid ""
+"Optional brief instructions to your customer to explain appointment "
+"logistics"
+msgstr ""
+
+#: languages/admin-app-translations.php:537
+msgid "e.g. \"I'll call you\" or \"We'll meet at your office\""
+msgstr ""
+
+#: languages/admin-app-translations.php:538
+msgid "Show appointment start times every:"
+msgstr ""
+
+#: languages/admin-app-translations.php:539
+msgid "Appointment timezone"
+msgstr ""
+
+#: languages/admin-app-translations.php:540
+msgid "Is this appointment type associated with a specific timezone?"
+msgstr ""
+
+#: languages/admin-app-translations.php:541
+msgid "Localized"
+msgstr ""
+
+#: languages/admin-app-translations.php:542
+msgid "Locked"
+msgstr ""
+
+#: languages/admin-app-translations.php:543
+msgid ""
+"Your customers will see available appointment times in their own timezone. "
+"Recommended for phone calls and online meetings."
+msgstr ""
+
+#: languages/admin-app-translations.php:544
+msgid ""
+"Your customers will see available appointment times in a your timezone. "
+"Recommended for in-person meetings."
+msgstr ""
+
+#: languages/admin-app-translations.php:545
+msgid "Your timezone is:"
+msgstr ""
+
+#: languages/admin-app-translations.php:546
+msgid "Appointment buffer"
+msgstr ""
+
+#: languages/admin-app-translations.php:547
+msgid "The amount of time that should be left free before and after an appointment."
+msgstr ""
+
+#: languages/admin-app-translations.php:548
+msgid "How much time should be left free before an appointment of this type?"
+msgstr ""
+
+#: languages/admin-app-translations.php:549
+msgid "How much time should be left free after an appointment of this type?"
+msgstr ""
+
+#: languages/admin-app-translations.php:550
+msgid "Limit the number of appointments of this type that can be booked in a day?"
+msgstr ""
+
+#: languages/admin-app-translations.php:551
+msgid "Max number of appointments of this type to book per day"
+msgstr ""
+
+#: languages/admin-app-translations.php:552
+msgid "Notice required"
+msgstr ""
+
+#: languages/admin-app-translations.php:553
+msgid "How much notice you need when someone books an appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:554
+msgid "Notice"
+msgstr ""
+
+#: languages/admin-app-translations.php:555
+msgid "Minimum notice required when booking"
+msgstr ""
+
+#: languages/admin-app-translations.php:556
+#: languages/admin-app-translations.php:558
+msgid "Advance"
+msgstr ""
+
+#: languages/admin-app-translations.php:557
+msgid ""
+"How far into the future customers should be able to book this type of "
+"appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:559
+msgid "How far in advance customers can book an appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:560
+msgid "The Notice Required must be less than the Advance"
+msgstr ""
+
+#: languages/admin-app-translations.php:561
+msgid "Booking window"
+msgstr ""
+
+#: languages/admin-app-translations.php:562
+msgid ""
+"Define a specific date range for when customers will have access to book "
+"this type of appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:563
+#: languages/admin-app-translations.php:567
+msgid "Start"
+msgstr ""
+
+#: languages/admin-app-translations.php:564
+#: languages/admin-app-translations.php:568
+msgid "End"
+msgstr ""
+
+#: languages/admin-app-translations.php:565
+msgid "Availability window"
+msgstr ""
+
+#: languages/admin-app-translations.php:566
+msgid ""
+"Define a specific date range for when appointments are available to be "
+"booked"
+msgstr ""
+
+#: languages/admin-app-translations.php:569
+msgid "Per day limit"
+msgstr ""
+
+#: languages/admin-app-translations.php:570
+msgid "Limit how many appointments of this type can be booked per day"
+msgstr ""
+
+#: languages/admin-app-translations.php:571
+msgid "Display"
+msgstr ""
+
+#: languages/admin-app-translations.php:572
+msgid "Require"
+msgstr ""
+
+#: languages/admin-app-translations.php:573
+msgid "Delete this appointment type?"
+msgstr ""
+
+#: languages/admin-app-translations.php:574
+msgid "The following appointments of this type are booked:"
+msgstr ""
+
+#: languages/admin-app-translations.php:577
+msgid "Add new appointments to this calendar"
+msgstr ""
+
+#: languages/admin-app-translations.php:579
+msgid "Your changes to this appointment type won't be saved"
+msgstr ""
+
+#: languages/admin-app-translations.php:582
+msgid "saved"
+msgstr ""
+
+#: languages/admin-app-translations.php:585
+msgid "Add New"
+msgstr ""
+
+#: languages/admin-app-translations.php:586
+msgid "Create a new appointment type"
+msgstr ""
+
+#: languages/admin-app-translations.php:588
+msgid "Bulk Edit"
+msgstr ""
+
+#: languages/admin-app-translations.php:591
+msgid "Add Field"
+msgstr ""
+
+#: languages/admin-app-translations.php:594
+msgid "Edit selected appointment types individually"
+msgstr ""
+
+#: languages/admin-app-translations.php:595
+msgid "Back to Appointment Types"
+msgstr ""
+
+#: languages/admin-app-translations.php:596
+msgid "Reorder"
+msgstr ""
+
+#: languages/admin-app-translations.php:597
+msgid "Save order"
+msgstr ""
+
+#: languages/admin-app-translations.php:604
+#: languages/booking-app-translations.php:103
+msgid "Address"
+msgstr ""
+
+#: languages/admin-app-translations.php:605
+#: languages/booking-app-translations.php:104
+msgid "City"
+msgstr ""
+
+#: languages/admin-app-translations.php:606
+#: languages/booking-app-translations.php:105
+msgid "State"
+msgstr ""
+
+#: languages/admin-app-translations.php:607
+msgid "Zip Code"
+msgstr ""
+
+#: languages/admin-app-translations.php:608
+#: languages/booking-app-translations.php:107
+msgid "Notes"
+msgstr ""
+
+#: languages/admin-app-translations.php:614
+msgid "Single Line Text"
+msgstr ""
+
+#: languages/admin-app-translations.php:615
+msgid "Multi Line Text"
+msgstr ""
+
+#: languages/admin-app-translations.php:616
+msgid "Checkboxes"
+msgstr ""
+
+#: languages/admin-app-translations.php:617
+msgid "Radios"
+msgstr ""
+
+#: languages/admin-app-translations.php:618
+msgid "Phone number"
+msgstr ""
+
+#: languages/admin-app-translations.php:623
+msgid "Required"
+msgstr ""
+
+#: languages/admin-app-translations.php:625
+msgid "Icon"
+msgstr ""
+
+#: languages/admin-app-translations.php:626
+msgid "Values"
+msgstr ""
+
+#: languages/admin-app-translations.php:627
+msgid "One value-per-line"
+msgstr ""
+
+#: languages/admin-app-translations.php:633
+msgid "Subscribe to newsletter"
+msgstr ""
+
+#: languages/admin-app-translations.php:634
+msgid "Text to display next to opt in checkbox"
+msgstr ""
+
+#: languages/admin-app-translations.php:635
+msgid "Opt in text is required"
+msgstr ""
+
+#: languages/admin-app-translations.php:636
+msgid "Customers will have the option to subscribe to which MailChimp list?"
+msgstr ""
+
+#: languages/admin-app-translations.php:637
+msgid "There are no lists associated with your MailChimp account."
+msgstr ""
+
+#: languages/admin-app-translations.php:638
+msgid "None"
+msgstr ""
+
+#: languages/admin-app-translations.php:639
+msgid "Mailchimp hasn't been connected to your Mailchimp account"
+msgstr ""
+
+#: languages/admin-app-translations.php:640
+msgid "Connect Mailchimp"
+msgstr ""
+
+#: languages/admin-app-translations.php:644
+msgid "Google Calendar hasn't been connected to your Google account."
+msgstr ""
+
+#: languages/admin-app-translations.php:645
+msgid "Connect Google Calendar"
+msgstr ""
+
+#: languages/admin-app-translations.php:649
+#: languages/booking-app-translations.php:112
+msgid "Price"
+msgstr ""
+
+#: languages/admin-app-translations.php:650
+msgid "Price must be greater than 0"
+msgstr ""
+
+#: languages/admin-app-translations.php:651
+msgid "Display price"
+msgstr ""
+
+#: languages/admin-app-translations.php:652
+msgid "Currency"
+msgstr ""
+
+#: languages/admin-app-translations.php:653
+msgid "You must specify a currency to take payments"
+msgstr ""
+
+#: languages/admin-app-translations.php:654
+msgid "You don't have any payment gateways set up."
+msgstr ""
+
+#: languages/admin-app-translations.php:655
+msgid "Set up payments"
+msgstr ""
+
+#: languages/admin-app-translations.php:656
+msgid "Payment Methods"
+msgstr ""
+
+#: languages/admin-app-translations.php:657
+msgid "You must specify at least one method to accept payments"
+msgstr ""
+
+#: languages/admin-app-translations.php:658
+msgid "Is payment required to book an appointment?"
+msgstr ""
+
+#: languages/admin-app-translations.php:659
+msgid ""
+"Required: Customer must submit a valid payment to reserve an appointment "
+"time"
+msgstr ""
+
+#: languages/admin-app-translations.php:660
+msgid ""
+"Optional: Customer may reserve an appointment time without payment but has "
+"the option to pay"
+msgstr ""
+
+#: languages/admin-app-translations.php:661
+msgid "No payment required"
+msgstr ""
+
+#: languages/admin-app-translations.php:662
+msgid "Refund policy"
+msgstr ""
+
+#: languages/admin-app-translations.php:663
+msgid ""
+"This will be shown to your customers when booking and included in their "
+"confirmation email message"
+msgstr ""
+
+#: languages/admin-app-translations.php:667
+msgid "Send Admin Notification Email to"
+msgstr ""
+
+#: languages/admin-app-translations.php:668
+msgid "Send Customer Notification Email"
+msgstr ""
+
+#: languages/admin-app-translations.php:673
+msgid "Cancel this appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:674
+msgid "Past Appointments"
+msgstr ""
+
+#: languages/admin-app-translations.php:675
+msgid "Rescheduled"
+msgstr ""
+
+#: languages/admin-app-translations.php:676
+msgid "Upcoming Appointments"
+msgstr ""
+
+#: languages/admin-app-translations.php:677
+msgid "View original appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:678
+msgid "Load more appointments"
+msgstr ""
+
+#: languages/admin-app-translations.php:679
+msgid "All appointments loaded"
+msgstr ""
+
+#: languages/admin-app-translations.php:680
+msgid "Pending Appointments"
+msgstr ""
+
+#: languages/admin-app-translations.php:681
+msgid ""
+"Pending appointments are appointments that a customer started booking, but "
+"did not complete the booking process to confirm the appointment. Usually "
+"that means payment was required for the appointment, but was never "
+"completed."
+msgstr ""
+
+#: languages/admin-app-translations.php:682
+msgid "There are no past appointments"
+msgstr ""
+
+#: languages/admin-app-translations.php:683
+msgid "There are no pending appointments"
+msgstr ""
+
+#: languages/admin-app-translations.php:684
+msgid "There are no upcoming appointments scheduled."
+msgstr ""
+
+#: languages/admin-app-translations.php:685
+msgid "No appointments have passed yet."
+msgstr ""
+
+#: languages/admin-app-translations.php:686
+msgid "Cancel this appointment?"
+msgstr ""
+
+#: languages/admin-app-translations.php:687
+msgid "Cancel appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:688
+#: languages/admin-app-translations.php:690
+msgid "Keep appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:689
+msgid "Delete this appointment?"
+msgstr ""
+
+#: languages/admin-app-translations.php:691
+msgid "Delete appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:692
+msgid ""
+"This cannot be undone. All information associated with this appointment "
+"will be permanently removed"
+msgstr ""
+
+#: languages/admin-app-translations.php:693
+msgid ""
+"Your customer will not receive any notification that the appointment was "
+"deleted. If you would like your customer to receive a notification of a "
+"canceled appointment, please cancel the appointment before deleting it."
+msgstr ""
+
+#: languages/admin-app-translations.php:694
+msgid "Deleted appointment type"
+msgstr ""
+
+#: languages/admin-app-translations.php:695
+msgid "Deleting appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:696
+msgid "Getting your appointment details"
+msgstr ""
+
+#: languages/admin-app-translations.php:697
+msgid "View appointment details"
+msgstr ""
+
+#: languages/admin-app-translations.php:698
+msgid "Appointment Details"
+msgstr ""
+
+#: languages/admin-app-translations.php:699
+msgid "View all appointments"
+msgstr ""
+
+#: languages/admin-app-translations.php:701
+msgid "Created"
+msgstr ""
+
+#: languages/admin-app-translations.php:702
+msgid "Booked by"
+msgstr ""
+
+#: languages/admin-app-translations.php:703
+msgid "Customer"
+msgstr ""
+
+#: languages/admin-app-translations.php:704
+msgid "Last modified"
+msgstr ""
+
+#: languages/admin-app-translations.php:705
+msgid "Appointment not found"
+msgstr ""
+
+#: languages/admin-app-translations.php:706
+msgid "We weren't able to find that appointment on the books."
+msgstr ""
+
+#: languages/admin-app-translations.php:707
+msgid "Unable to get appointment"
+msgstr ""
+
+#: languages/admin-app-translations.php:708
+msgid "We weren't able to get that appointment. Try refreshing the page."
+msgstr ""
+
+#: languages/admin-app-translations.php:709
+msgid "Payment received"
+msgstr ""
+
+#: languages/admin-app-translations.php:710
+msgid "Payment Information"
+msgstr ""
+
+#: languages/admin-app-translations.php:715
+msgid "Pending"
+msgstr ""
+
+#: languages/admin-app-translations.php:716
+msgid "Succeeded"
+msgstr ""
+
+#: languages/admin-app-translations.php:717
+msgid "Failed"
+msgstr ""
+
+#: languages/admin-app-translations.php:721
+msgid "Test Mode"
+msgstr ""
+
+#: languages/admin-app-translations.php:723
+msgid "Exp."
+msgstr ""
+
+#: languages/admin-app-translations.php:728
+msgid "The timezone where you are located."
+msgstr ""
+
+#: languages/admin-app-translations.php:729
+msgid ""
+"The format you want to use for displaying the dates of your appointments "
+"and availability."
+msgstr ""
+
+#: languages/admin-app-translations.php:730
+msgid ""
+"The format you want to use for displaying the times of your appointments "
+"and availability"
+msgstr ""
+
+#: languages/admin-app-translations.php:731
+msgid "The day that should be considered the first day of the week."
+msgstr ""
+
+#: languages/admin-app-translations.php:732
+msgid "The email address where admin notifications about appointments will be sent."
+msgstr ""
+
+#: languages/admin-app-translations.php:733
+msgid ""
+"The name, business, and email address for the main person administering "
+"appointments"
+msgstr ""
+
+#: languages/admin-app-translations.php:738
+msgid "Loading your support details"
+msgstr ""
+
+#: languages/admin-app-translations.php:739
+msgid ""
+"These details can help our support team troubleshoot any issues you might "
+"be having."
+msgstr ""
+
+#: languages/admin-app-translations.php:740
+msgid "PHP version"
+msgstr ""
+
+#: languages/admin-app-translations.php:741
+msgid "WordPress.org communication"
+msgstr ""
+
+#: languages/admin-app-translations.php:742
+msgid "WordPress version"
+msgstr ""
+
+#: languages/admin-app-translations.php:743
+msgid "SQL server"
+msgstr ""
+
+#: languages/admin-app-translations.php:744
+msgid "JSON extension"
+msgstr ""
+
+#: languages/admin-app-translations.php:745
+msgid "Utf8mb4 support"
+msgstr ""
+
+#: languages/admin-app-translations.php:747
+msgid "SSL support"
+msgstr ""
+
+#: languages/admin-app-translations.php:749
+msgid "Operating system"
+msgstr ""
+
+#: languages/admin-app-translations.php:750
+msgid "Screen resolution"
+msgstr ""
+
+#: languages/admin-app-translations.php:751
+msgid "Web browser"
+msgstr ""
+
+#: languages/admin-app-translations.php:752
+msgid "Web browser size"
+msgstr ""
+
+#: languages/admin-app-translations.php:755
+msgid "Unknown"
+msgstr ""
+
+#: languages/admin-app-translations.php:756
+msgid "Contact Support Team"
+msgstr ""
+
+#: languages/admin-app-translations.php:757
+msgid "Send Message"
+msgstr ""
+
+#: languages/admin-app-translations.php:758
+msgid "Message to the support team"
+msgstr ""
+
+#: languages/admin-app-translations.php:759
+msgid "Your email address"
+msgstr ""
+
+#: languages/admin-app-translations.php:760
+msgid ""
+"Messages sent to the support team through this form will include the "
+"debugging information visible on this page."
+msgstr ""
+
+#: languages/admin-app-translations.php:761
+msgid "Include information about settings and appointment types"
+msgstr ""
+
+#: languages/admin-app-translations.php:762
+msgid ""
+"Checking this box sends us extra helpful information about your settings "
+"and appointment types. It *does not* include any private information or any "
+"information about your customers or your appointments."
+msgstr ""
+
+#: languages/admin-app-translations.php:763
+msgid "Sending your message"
+msgstr ""
+
+#: languages/admin-app-translations.php:764
+msgid "Success!"
+msgstr ""
+
+#: languages/admin-app-translations.php:765
+msgid "Your message was sent. We'll be in touch as soon as possible."
+msgstr ""
+
+#: languages/admin-app-translations.php:766
+msgid "Unable to send your message"
+msgstr ""
+
+#: languages/admin-app-translations.php:767
+msgid ""
+"Something stopped us from being able to send your message, but never fear. "
+"You can simply email us at support@simplyscheduleappointments.com for "
+"assistance. Include the debugging information on this page to help us help "
+"you as quickly as possible."
+msgstr ""
+
+#: languages/admin-app-translations.php:768
+msgid "Show debugging info"
+msgstr ""
+
+#: languages/booking-app-translations.php:4
+msgid "Loading"
+msgstr ""
+
+#: languages/booking-app-translations.php:5
+msgid "Getting appointment information"
+msgstr ""
+
+#: languages/booking-app-translations.php:6
+msgid "Loading Available Appointments"
+msgstr ""
+
+#: languages/booking-app-translations.php:7
+msgid "Your timezone:"
+msgstr ""
+
+#: languages/booking-app-translations.php:8
+msgid "Select a timezone"
+msgstr ""
+
+#: languages/booking-app-translations.php:9
+msgid "You are booking an appointment in timezone:"
+msgstr ""
+
+#: languages/booking-app-translations.php:10
+msgid "Current local time is:"
+msgstr ""
+
+#: languages/booking-app-translations.php:14
+msgid "Go back"
+msgstr ""
+
+#: languages/booking-app-translations.php:15
+msgid "Change the timezone."
+msgstr ""
+
+#: languages/booking-app-translations.php:16
+msgid "Go forward"
+msgstr ""
+
+#: languages/booking-app-translations.php:17
+msgid "Save timezone"
+msgstr ""
+
+#: languages/booking-app-translations.php:21
+msgid "Booking:"
+msgstr ""
+
+#: languages/booking-app-translations.php:22
+msgid "What type of appointment are you booking?"
+msgstr ""
+
+#: languages/booking-app-translations.php:23
+msgid "You are booking: "
+msgstr ""
+
+#: languages/booking-app-translations.php:24
+msgid "Thank you! Your appointment is booked"
+msgstr ""
+
+#: languages/booking-app-translations.php:25
+msgid "When: "
+msgstr ""
+
+#: languages/booking-app-translations.php:29
+msgid "Processing payment"
+msgstr ""
+
+#: languages/booking-app-translations.php:30
+msgid "Pay with PayPal"
+msgstr ""
+
+#: languages/booking-app-translations.php:32
+msgid ""
+"We'll hold your appointment time for 10 minutes to give you time to "
+"complete payment with PayPal"
+msgstr ""
+
+#: languages/booking-app-translations.php:33
+msgid "Booking your appointment"
+msgstr ""
+
+#: languages/booking-app-translations.php:34
+msgid "Save to calendar"
+msgstr ""
+
+#: languages/booking-app-translations.php:35
+msgid "Google calendar"
+msgstr ""
+
+#: languages/booking-app-translations.php:36
+msgid "Other"
+msgstr ""
+
+#: languages/booking-app-translations.php:37
+msgid "Select a date"
+msgstr ""
+
+#: languages/booking-app-translations.php:38
+msgid "Select a time on"
+msgstr ""
+
+#: languages/booking-app-translations.php:39
+msgid "Please remind me about this appointment by text message at this number"
+msgstr ""
+
+#: languages/booking-app-translations.php:40
+msgid "Book this appointment"
+msgstr ""
+
+#: languages/booking-app-translations.php:41
+msgid "Update this appointment"
+msgstr ""
+
+#: languages/booking-app-translations.php:45
+msgid "Make a change"
+msgstr ""
+
+#: languages/booking-app-translations.php:46
+msgid "Canceled:"
+msgstr ""
+
+#: languages/booking-app-translations.php:47
+msgid "Are you sure you want to cancel?"
+msgstr ""
+
+#: languages/booking-app-translations.php:48
+msgid "Keep Appointment"
+msgstr ""
+
+#: languages/booking-app-translations.php:49
+#: languages/booking-app-translations.php:53
+msgid "Cancel Appointment"
+msgstr ""
+
+#: languages/booking-app-translations.php:50
+msgid "This appointment is in the past. It cannot be edited."
+msgstr ""
+
+#: languages/booking-app-translations.php:51
+msgid "This appointment has been canceled"
+msgstr ""
+
+#: languages/booking-app-translations.php:52
+msgid "Reschedule"
+msgstr ""
+
+#: languages/booking-app-translations.php:54
+msgid "Edit Information"
+msgstr ""
+
+#: languages/booking-app-translations.php:55
+msgid "Schedule a new appointment"
+msgstr ""
+
+#: languages/booking-app-translations.php:60
+msgid "Uh oh."
+msgstr ""
+
+#: languages/booking-app-translations.php:61
+msgid "We ran into a problem: "
+msgstr ""
+
+#: languages/booking-app-translations.php:62
+msgid "Error loading API"
+msgstr ""
+
+#: languages/booking-app-translations.php:63
+msgid "Unable to get the settings"
+msgstr ""
+
+#: languages/booking-app-translations.php:64
+msgid "Unable to get the available appointment types"
+msgstr ""
+
+#: languages/booking-app-translations.php:65
+msgid "No appointment types have been set up yet."
+msgstr ""
+
+#: languages/booking-app-translations.php:66
+msgid " is required."
+msgstr ""
+
+#: languages/booking-app-translations.php:67
+msgid "A valid email address is required"
+msgstr ""
+
+#: languages/booking-app-translations.php:69
+msgid "This appointment type cannot be booked at this time"
+msgstr ""
+
+#: languages/booking-app-translations.php:70
+msgid "There are no available appointment times"
+msgstr ""
+
+#: languages/booking-app-translations.php:71
+msgid "You can't book appointments in the past."
+msgstr ""
+
+#: languages/booking-app-translations.php:72
+msgid ""
+"Sorry, that time was just booked and is no longer available. Please choose "
+"another time."
+msgstr ""
+
+#: languages/booking-app-translations.php:73
+msgid "Pick a new time"
+msgstr ""
+
+#: languages/booking-app-translations.php:75
+msgid "Sorry, we couldn't save your appointment"
+msgstr ""
+
+#: languages/booking-app-translations.php:76
+msgid "Connection lost. We're having trouble communicating"
+msgstr ""
+
+#: languages/booking-app-translations.php:80
+msgid "Night"
+msgstr ""
+
+#: languages/booking-app-translations.php:81
+msgid "Morning"
+msgstr ""
+
+#: languages/booking-app-translations.php:82
+msgid "Afternoon"
+msgstr ""
+
+#: languages/booking-app-translations.php:83
+msgid "Evening"
+msgstr ""
+
+#: languages/booking-app-translations.php:106
+msgid "Zip"
+msgstr ""
+
+#: languages/booking-app-translations.php:113
+msgid "Payment Method"
+msgstr ""
+
+#: languages/booking-app-translations.php:114
+msgid "Refund Policy"
+msgstr ""
+
+#: languages/booking-app-translations.php:115
+msgid "Pay Later"
+msgstr ""
+
+#: languages/booking-app-translations.php:116
+msgid "No payment was processed. Please try again."
+msgstr ""
+
+#: languages/booking-app-translations.php:119
+#: languages/booking-app-translations.php:123
+msgid "Confirm and Pay"
+msgstr ""
+
+#: languages/booking-app-translations.php:125
+msgid "Book"
+msgstr ""
+
+#: languages/booking-app-translations.php:126
+msgid "Payment Received:"
+msgstr ""
+
+#: languages/booking-app-translations.php:127
+msgid "Unable to process payment. Please try again."
+msgstr ""
+
+#: languages/booking-app-translations.php:128
+msgid "Things are taking longer than expected"
+msgstr ""
+
+#: languages/booking-app-translations.php:129
+msgid ""
+"PayPal is taking a little longer than usual to process your payment. Don't "
+"worry - we'll hold your appointment time for you. This usually resolves "
+"within a few minutes, or in rare cases, a few hours. Once your payment is "
+"processed, you'll receive an email confirmation of this appointment. If you "
+"don't receive that, please get in touch."
+msgstr ""
+
+#: simply-schedule-appointments.php:423
+msgid ""
+"Simply Schedule Appointments detected that your system does not meet the "
+"minimum requirements. We've <a href=\"%s\">deactivated</a> Simply Schedule "
+"Appointments to make sure nothing breaks."
+msgstr ""
+
+#: templates/notifications/email/text/booked-customer.php:19
+#: templates/notifications/email/text/canceled-customer.php:19
+msgid "Hi %s,"
+msgstr ""
+
+#: templates/notifications/email/text/booked-customer.php:21
+msgid "This is a confirmation of the appointment you just booked on %s"
+msgstr ""
+
+#: templates/notifications/email/text/booked-customer.php:23
+msgid "Appointment scheduled for %s"
+msgstr ""
+
+#: templates/notifications/email/text/booked-customer.php:26
+#: templates/notifications/email/text/booked-staff.php:25
+msgid "Instructions: %s"
+msgstr ""
+
+#: templates/notifications/email/text/booked-customer.php:29
+#: templates/notifications/email/text/booked-staff.php:28
+#: templates/notifications/email/text/canceled-staff.php:25
+msgid "Type: %s"
+msgstr ""
+
+#: templates/notifications/email/text/booked-customer.php:31
+msgid "Your details:"
+msgstr ""
+
+#: templates/notifications/email/text/booked-customer.php:34
+msgid ""
+"If you need to cancel or change your appointment, you can do so by visiting "
+"this link:"
+msgstr ""
+
+#: templates/notifications/email/text/booked-staff.php:19
+msgid "%s just booked an appointment on %s"
+msgstr ""
+
+#: templates/notifications/email/text/booked-staff.php:21
+#: templates/notifications/email/text/canceled-staff.php:22
+msgid "Appointment Details:"
+msgstr ""
+
+#: templates/notifications/email/text/booked-staff.php:22
+msgid "Starting at %s"
+msgstr ""
+
+#: templates/notifications/email/text/booked-staff.php:30
+#: templates/notifications/email/text/canceled-staff.php:27
+msgid "Customer details:"
+msgstr ""
+
+#: templates/notifications/email/text/canceled-customer.php:21
+msgid "Your appointment \"%s\" (booked on %s) has been canceled"
+msgstr ""
+
+#: templates/notifications/email/text/canceled-staff.php:19
+msgid "Your appointment \"%s\" with %s has been canceled"
+msgstr ""
+
+#: templates/notifications/email/text/canceled-staff.php:21
+msgid "*** Canceled ***"
+msgstr ""
+
+#: templates/notifications/email/text/canceled-staff.php:23
+msgid "%s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Simply Schedule Appointments"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://simplyscheduleappointments.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Easy appointment scheduling"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "N Squared"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://nsqua.red"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:401
+#: includes/lib/td-health-check/includes/class-health-check-site-status.php:416
+msgctxt "The link to the Update PHP page, which may be localized."
+msgid "https://wordpress.org/support/upgrade-php/"
+msgstr ""
+
+#: includes/lib/td-health-check/includes/class-health-check.php:213
+#: includes/lib/td-health-check/includes/class-health-check.php:230
+#: includes/lib/td-health-check/includes/class-health-check.php:289
+msgctxt "Menu, Section and Page Title"
+msgid "Health Check"
+msgstr ""
